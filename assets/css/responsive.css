@@ -1,0 +1,461 @@
+/* ==========================================================================
+   ১. ডিফল্ট রুট ভ্যারিয়েবল (1200px এবং তার উপরের বড় স্ক্রিনের জন্য)
+   ========================================================================== */
+:root {
+  /* কালার এবং ফন্ট ফ্যামিলি (সব স্ক্রিনেই এক থাকবে) */
+  --font-family: "PT Serif", serif;
+  --font-family_allura: "Allura";
+  --background_color: #020202;
+  --primary_color: #9a8462;
+  --heading_color: #9a8462;
+  --body_paragraph_color: #efece0;
+  --link_color: #9a8462;
+  --accent_color: #e2e2e2;
+  --gradient_color: linear-gradient(90deg, #634a22 40%, #ffffff 60%);
+  --black_color: #000000;
+  --black_color_80: #020202cc;
+  --white_color: #ffffff;
+  --about_card_background: #212121;
+  --button_background_color: #f9f9f9;
+  --letter_spacing: -0.015em;
+  --letter_spacing_paragraph: 0.015em;
+
+  /* বড় স্ক্রিনের জন্য ফন্ট সাইজ এবং লাইন হাইট */
+  --font-size: 16px;
+  --line-height: 1.9;
+  --h1_font_size: 32px;
+  --small_card_title: 30px;
+  --h2_font_size: 24px;
+  --accordion_heading_size: 18px;
+  --h3_font_size: 20px;
+  --h4_font_size: 16px;
+  --social_button_size: 14px;
+  --heading_line_height: 1.2;
+}
+
+/* ==========================================================================
+   ২. রেসপনসিভ মিডিয়া কোয়েরি (ছোট স্ক্রিনগুলোর জন্য সাইজ পরিবর্তন)
+   ========================================================================== */
+
+/* Extra small devices (300px – 575.98px) */
+@media (min-width: 300px) and (max-width: 575.98px) {
+  :root {
+    --font-size: 16px;
+    --line-height: 1.6;
+    --h1_font_size: 24px;
+    --small_card_title: 22px;
+    --h2_font_size: 24px;
+    --accordion_heading_size: 18px;
+    --h3_font_size: 18px;
+    --h4_font_size: 15px;
+    --social_button_size: 12px;
+  }
+  /* ========== Home Page Responsive Css Start ==========  */
+.not_for_desk{
+    display: block;
+}
+.hero_image img {
+	height: 291px;
+}
+  .theme_button {
+	justify-content: unset;
+}
+.white_button {
+	max-width: 100%;
+	width: 100%;
+}
+.card_item {
+	margin-bottom: 30px;
+}
+.primary_button {
+	max-width: 100%;
+	width: 100%;
+}
+.two_faq_area .accordion-item .accordion-button.collapsed {
+	padding: 20px 20px 10px 20px;
+	height: auto;
+}
+.two_faq_area .accordion-item .accordion-button {
+	padding: 20px 20px 20px 20px;
+	height: auto;
+}
+.small_card_left_card {
+	/* padding-left: unset; */
+	padding-left: calc(var(--bs-gutter-x) * .5);
+}
+.small_card_right_card {
+	/* padding-right: 0px; */
+	padding-right: calc(var(--bs-gutter-x) * .5);
+}
+.small_card_item {
+	margin-bottom: 20px;
+	text-align: center;
+	margin: 30px 30px 10px 30px;
+}
+.mission_right_image img {
+	width: 100%;
+}
+.mission_content {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.mission_content h2 {
+	text-align: center;
+}
+.mission_right_image p {
+	padding: 0 20px;
+}
+.main_faq_title {
+	text-align: center;
+}
+.main_faq_section .container {
+	background-color: var(--about_card_background);
+	padding-right: var(--bs-gutter-x,.75rem);
+  padding-left: var(--bs-gutter-x,.75rem);
+}
+.main_faq_list_area .accordion-item .accordion-button.collapsed {
+	line-height: 25px;
+}
+.footer_copyright_left ul {
+	justify-content: center;
+}
+.footer_copyright_text {
+    text-align: center !important;
+    margin-top: 20px;
+}
+.section_two_image img {
+	height: 268px;
+}
+.about_faq_image img {
+	height: 644px;
+	margin-top: 20px;
+}
+.sidebar {
+	width: 100%;
+	max-width: 100%;
+	left: 0px;
+}
+.sidebar-content ul li {
+	text-align: start;
+	margin-bottom: 5px;
+}
+.sidebar-close {
+	position: absolute;
+	top: 20px;
+	right: unset;
+	left: 30px;
+}
+.img-fluid {
+	max-width: 100%;
+	height: 696px;
+	object-fit: cover;
+	border-radius: 5px;
+}
+.mission_section .container {
+	padding-right: var(--bs-gutter-x,.75rem);
+  padding-left: var(--bs-gutter-x,.75rem);
+	background-color: var(--about_card_background);
+}
+.about_faq_section .container {
+	background-color: var(--about_card_background);
+	padding: 20px 10px;
+}
+.two_faq_section .container {
+	background-color: var(--about_card_background);
+	padding-right: var(--bs-gutter-x,.75rem);
+  padding-left: var(--bs-gutter-x,.75rem);
+}
+.small_card_item img {
+	width: 100%;
+	height: 225px;
+	margin: 0 auto;
+}
+.footer_left_side_menu {
+    text-align: start !important;
+}
+html,
+body {
+    overflow-x: clip;
+}
+  /* ========== Home Page Responsive Css End ==========  */
+    /* ========== Portfolio Page Responsive Css Start ==========  */
+  .portfolio_items_section .filter-bar ul {
+	display: grid;
+	justify-content: center;
+	gap: 20px;
+}
+  .portfolio_items_section .filter-bar ul li{
+	display: flex;
+	justify-content: center;
+}
+.portfolio_items_section .filter-bar {
+	margin-bottom: 20px;
+	display: grid !important;
+	justify-content: center !important;
+}
+.portfolio_about_content {
+	padding: 20px 0px 40px 0px;
+}
+.filter-bar .d-flex{
+	display: block !important;
+}
+.portfolio_items_section .card_cover_img img {
+	height: 271px;
+	width: 100%;
+}
+.portfolio_page .section_two_image img {
+	height: 103px;
+	width: 100%;
+	object-fit: cover;
+}
+.portfolio_items_section {
+	margin-top: 20px;
+	padding-bottom: 20px;
+}
+.footer_copyright_section {
+	padding-top: 10px;
+	padding-bottom: 50px;
+}
+.portfolio_items_section .container {
+	padding-right: var(--bs-gutter-x,.75rem);
+  padding-left: var(--bs-gutter-x,.75rem);
+}
+.side_menu_icon {
+	margin-left: 0px;
+}
+  /* ========== Portfolio Page Responsive Css End ==========  */
+  /* ========== City Guide Page Responsive Css Start ==========  */
+  .city_guide_card .small_card_item {
+	margin-bottom: 20px;
+	text-align: center;
+	margin: 30px 10px 10px 10px;
+}
+.city_guide_page .city_guide_card {
+	margin-bottom: 20px;
+}
+  /* ========== City Guide Page Responsive Css End ==========  */
+}
+
+/* Small devices (576px – 767.98px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  :root {
+    --font-size: 15px;
+    --line-height: 1.7;
+    --h1_font_size: 26px;
+    --small_card_title: 24px;
+    --h2_font_size: 21px;
+    --accordion_heading_size: 16px;
+    --h3_font_size: 19px;
+    --h4_font_size: 15px;
+    --social_button_size: 13px;
+  }
+  /* ========== Home Page Responsive Css Start ==========  */
+  .side_menu_icon {
+	margin-left: 0px;
+}
+.not_for_desk{
+    display: block;
+}
+ .hero_image img {
+	height: 291px;
+}
+  .theme_button {
+	justify-content: unset;
+}
+.white_button {
+	max-width: 100%;
+	width: 100%;
+}
+.card_item {
+	margin-bottom: 30px;
+}
+.primary_button {
+	max-width: 100%;
+	width: 100%;
+}
+.two_faq_area .accordion-item .accordion-button.collapsed {
+	padding: 20px 20px 10px 20px;
+	height: auto;
+}
+.two_faq_area .accordion-item .accordion-button {
+	padding: 20px 20px 20px 20px;
+	height: auto;
+}
+.small_card_left_card {
+	/* padding-left: unset; */
+	padding-left: calc(var(--bs-gutter-x) * .5);
+}
+.small_card_right_card {
+	/* padding-right: 0px; */
+	padding-right: calc(var(--bs-gutter-x) * .5);
+}
+.small_card_item {
+	margin-bottom: 20px;
+}
+.mission_right_image img {
+	width: 100%;
+}
+.mission_content {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.footer_copyright_left ul {
+	justify-content: center;
+}
+.footer_copyright_text {
+    text-align: center !important;
+    margin-top: 20px;
+}
+.section_two_image img {
+	height: 268px;
+}
+.about_faq_image img {
+	height: 644px;
+	margin-top: 20px;
+}
+.sidebar {
+	width: 100%;
+	max-width: 100%;
+	left: 0px;
+}
+.sidebar-content ul li {
+	text-align: start;
+	margin-bottom: 5px;
+}
+.sidebar-close {
+	position: absolute;
+	top: 20px;
+	right: unset;
+	left: 30px;
+}
+  /* ========== Home Page Responsive Css End ==========  */
+  /* ========== Portfolio Page Responsive Css Start ==========  */
+  .portfolio_items_section .filter-bar ul {
+	display: grid;
+	justify-content: center;
+	gap: 20px;
+}
+  .portfolio_items_section .filter-bar ul li{
+	display: flex;
+	justify-content: center;
+}
+.portfolio_items_section .filter-bar {
+	margin-bottom: 20px;
+	display: grid !important;
+	justify-content: center !important;
+}
+  /* ========== Portfolio Page Responsive Css End ==========  */
+}
+
+/* Medium devices (768px – 991.98px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  :root {
+    --font-size: 15px;
+    --line-height: 1.8;
+    --h1_font_size: 28px;
+    --small_card_title: 26px;
+    --h2_font_size: 22px;
+    --accordion_heading_size: 17px;
+    --h3_font_size: 19px;
+    --h4_font_size: 16px;
+    --social_button_size: 13px;
+  }
+/* ========== Home Page Responsive Css Start ==========  */
+.not_for_desk{
+    display: block;
+}
+.hero_image img {
+	height: 400px;
+}
+  .theme_button {
+	justify-content: unset;
+}
+.white_button {
+	max-width: 100%;
+	width: 100%;
+}
+.card_item {
+	margin-bottom: 30px;
+}
+.primary_button {
+	max-width: 100%;
+	width: 100%;
+}
+.two_faq_area .accordion-item .accordion-button.collapsed {
+	padding: 20px 20px 10px 20px;
+	height: auto;
+}
+.two_faq_area .accordion-item .accordion-button {
+	padding: 20px 20px 20px 20px;
+	height: auto;
+}
+.small_card_left_card {
+	/* padding-left: unset; */
+	padding-left: calc(var(--bs-gutter-x) * .5);
+}
+.small_card_right_card {
+	/* padding-right: 0px; */
+	padding-right: calc(var(--bs-gutter-x) * .5);
+}
+.small_card_item {
+	margin-bottom: 20px;
+}
+.mission_right_image img {
+	width: 100%;
+}
+.mission_content {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.footer_copyright_left ul {
+	justify-content: center;
+}
+.footer_copyright_text {
+    text-align: center !important;
+    margin-top: 20px;
+}
+  /* ========== Home Page Responsive Css End ==========  */
+  
+}
+
+/* Large devices (992px – 1199.98px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  :root {
+    --font-size: 16px;
+    --line-height: 1.85;
+    --h1_font_size: 30px;
+    --small_card_title: 28px;
+    --h2_font_size: 23px;
+    --accordion_heading_size: 17px;
+    --h3_font_size: 20px;
+    --h4_font_size: 16px;
+    --social_button_size: 14px;
+  }
+  /* ========== Home Page Responsive Css Start ==========  */
+  .hero_image img {
+    height: 500px;
+  }
+  .theme_button {
+	justify-content: unset;
+}
+.white_button {
+	width: 100%;
+}
+.footer_copyright_section {
+	padding-top: 10px;
+	padding-bottom: 50px;
+}
+  /* ========== Home Page Responsive Css End ==========  */
+}
+
+/* Extra large devices (1200px – 1399.98px) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  /* এখানে কিছু লেখার প্রয়োজন নেই, কারণ ডিফল্ট :root এর CSS-ই কাজ করবে */
+}
+
+/* Ultra large / wide screens (1400px and up) */
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1200px !important;
+  }
+}
