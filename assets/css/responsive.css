@@ -1,8 +1,5 @@
-/* ==========================================================================
-   ১. ডিফল্ট রুট ভ্যারিয়েবল (1200px এবং তার উপরের বড় স্ক্রিনের জন্য)
-   ========================================================================== */
+
 :root {
-  /* কালার এবং ফন্ট ফ্যামিলি (সব স্ক্রিনেই এক থাকবে) */
   --font-family: "PT Serif", serif;
   --font-family_allura: "Allura";
   --background_color: #020202;
@@ -20,7 +17,7 @@
   --letter_spacing: -0.015em;
   --letter_spacing_paragraph: 0.015em;
 
-  /* বড় স্ক্রিনের জন্য ফন্ট সাইজ এবং লাইন হাইট */
+
   --font-size: 16px;
   --line-height: 1.9;
   --h1_font_size: 32px;
@@ -34,7 +31,7 @@
 }
 
 /* ==========================================================================
-   ২. রেসপনসিভ মিডিয়া কোয়েরি (ছোট স্ক্রিনগুলোর জন্য সাইজ পরিবর্তন)
+  
    ========================================================================== */
 
 /* Extra small devices (300px – 575.98px) */
@@ -234,6 +231,94 @@ body {
 	margin-bottom: 20px;
 }
   /* ========== City Guide Page Responsive Css End ==========  */
+    /* ========== Booking Page Responsive Css Start ==========  */
+  .booking_banner_img img {
+	display: none;
+}
+.booking_banner_right_content{
+	margin-top: 30px;
+}
+.booking_side_image_content_left h3 {
+	text-align: end !important;
+}
+.booking_side_image_content_left p {
+	text-align: end !important;
+}
+.booking_side_image_content_left ul {
+	text-align: end !important;
+}
+.booking_side_image_content_left ul li {
+	justify-content: end !important;
+}
+.booking_side_image_img{
+	text-align: center;
+}
+.booking_side_image_img img {
+	width: 95% !important;
+	height: 385px !important;
+	object-fit: cover;
+	margin: 0 auto;
+}
+.booking_side_image_content {
+	padding-right: 0px;
+}
+.booking_side_image_content_left {
+	margin-left: 0px;
+}
+  /* ========== Booking Page Responsive Css End ==========  */
+   /* ========== Services Page Responsive Css Start ==========  */
+  .servce_card_content{
+	margin-bottom: 20px;
+	margin-top: 20px;
+  }
+  .services_card_image img {
+	height: 276px;
+}
+  /* ========== Single Service Page ==========  */
+  .service_signle_img_and_content img {
+	height: 276px;
+}
+.white_button h2 {
+	color: var(--black_color);
+	margin-bottom: 0px;
+	font-size: var(--font-size);
+}
+  /* ========== Services Page Responsive Css End ==========  */
+   /* ========== Services Page Responsive Css Start ==========  */
+  .servce_card_content{
+	margin-bottom: 20px;
+	margin-top: 20px;
+  }
+  /* ========== Services Page Responsive Css End ==========  */
+    /* ========== News And Blogs Page Responsive Css Start ==========  */
+  .news_blogs_content {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.newsblogsimage{
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+.news_blogs_image img {
+	padding-left: 0px inherit;
+	padding-right: 0px;
+}
+.news_blogs_image img {
+	height: 350px !important;
+}
+  /* ========== News And Blogs Page Responsive Css End ==========  */
+      /* ========== Single News Page Responsive Css Start ==========  */
+	.single_news_section{
+		margin-top: 20px;
+	}
+  .single_news_card_items {
+	margin-bottom: 20px;
+}
+.single_news_card_section {
+	padding-top: 30px;
+	margin-bottom: 30px;
+}
+  /* ========== Single News Page Responsive Css End ==========  */
 }
 
 /* Small devices (576px – 767.98px) */
@@ -345,6 +430,50 @@ body {
 	justify-content: center !important;
 }
   /* ========== Portfolio Page Responsive Css End ==========  */
+    /* ========== Booking Page Responsive Css Start ==========  */
+  .booking_banner_img img {
+	display: none;
+}
+.booking_banner_right_content{
+	margin-top: 30px;
+}
+.booking_side_image_content_left h3 {
+	text-align: end !important;
+}
+.booking_side_image_content_left p {
+	text-align: end !important;
+}
+.booking_side_image_content_left ul {
+	text-align: end !important;
+}
+.booking_side_image_content_left ul li {
+	justify-content: end !important;
+}
+  /* ========== Booking Page Responsive Css End ==========  */
+  /* ========== Services Page Responsive Css Start ==========  */
+  .servce_card_content{
+	margin-bottom: 20px;
+	margin-top: 20px;
+  }
+  /* ========== Services Page Responsive Css End ==========  */
+    /* ========== News And Blogs Page Responsive Css Start ==========  */
+  .news_blogs_content {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+  /* ========== News And Blogs Page Responsive Css End ==========  */
+    /* ========== Single News Page Responsive Css Start ==========  */
+	.single_news_section{
+		margin-top: 20px;
+	}
+  .single_news_card_items {
+	margin-bottom: 20px;
+}
+.single_news_card_section {
+	padding-top: 30px;
+	margin-bottom: 30px;
+}
+  /* ========== Single News Page Responsive Css End ==========  */
 }
 
 /* Medium devices (768px – 991.98px) */
@@ -415,6 +544,44 @@ body {
     margin-top: 20px;
 }
   /* ========== Home Page Responsive Css End ==========  */
+  /* ========== Booking Page Responsive Css Start ==========  */
+  .booking_banner_img img {
+	display: none;
+}
+.booking_banner_right_content{
+	margin-top: 30px;
+}
+.booking_side_image_content_left h3 {
+	text-align: end !important;
+}
+.booking_side_image_content_left p {
+	text-align: end !important;
+}
+.booking_side_image_content_left ul {
+	text-align: end !important;
+}
+.booking_side_image_content_left ul li {
+	justify-content: end !important;
+}
+  /* ========== Booking Page Responsive Css End ==========  */
+  /* ========== Services Page Responsive Css Start ==========  */
+  .servce_card_content{
+	margin-bottom: 20px;
+	margin-top: 20px;
+  }
+  /* ========== Services Page Responsive Css End ==========  */
+  /* ========== News And Blogs Page Responsive Css Start ==========  */
+  .news_blogs_content {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+  /* ========== News And Blogs Page Responsive Css End ==========  */
+  /* ========== Single News Page Responsive Css Start ==========  */
+  .single_news_card_items {
+	margin-bottom: 20px;
+}
+  /* ========== Single News Page Responsive Css End ==========  */
   
 }
 
@@ -450,7 +617,7 @@ body {
 
 /* Extra large devices (1200px – 1399.98px) */
 @media (min-width: 1200px) and (max-width: 1399.98px) {
-  /* এখানে কিছু লেখার প্রয়োজন নেই, কারণ ডিফল্ট :root এর CSS-ই কাজ করবে */
+  
 }
 
 /* Ultra large / wide screens (1400px and up) */
