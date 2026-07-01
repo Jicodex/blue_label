@@ -27,12 +27,12 @@
                     <img src="assets/images/logo.svg" alt="Blue Label Logo">
                 </a>
                 <!-- ========== Just For Mobile And Tablet View - Whatsapp Icon / Menu  -->
-                 <li class="nav-item not_for_desk">
-                            <a class="nav-link active" aria-current="page" href="#">
-                                <!-- ===== Whatsapp Icon / Menu ===== -->
-                                <img src="assets/images/icons/whatsapp.svg" alt="WhatsApp Icon">
-                            </a>
-                        </li>
+                <li class="nav-item not_for_desk">
+                    <a class="nav-link active" aria-current="page" href="#">
+                        <!-- ===== Whatsapp Icon / Menu ===== -->
+                        <img src="assets/images/icons/whatsapp.svg" alt="WhatsApp Icon">
+                    </a>
+                </li>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
@@ -43,39 +43,55 @@
                         </li>
                     </ul>
                     <!-- ===== Side Menu Icon ===== -->
-                    <button class="side_menu_icon menu-open-btn" >
+                    <button class="side_menu_icon menu-open-btn">
                         <img src="assets/images/icons/menu_bar.svg" alt="Menu Icon">
                     </button>
-                    
+
                 </div>
                 <!-- ========== Side Menu Content Start -->
-                    <!-- Overlay -->
-                    <div class="sidebar-overlay" id="sidebarOverlay"></div>
+                <!-- Overlay -->
+                <div class="sidebar-overlay" id="sidebarOverlay"></div>
 
-                    <!-- Sidebar -->
-                    <div class="sidebar" id="sidebar">
-                        <button class="sidebar-close" id="menuClose">
-                            <img src="assets/images/icons/close_icon.svg" alt="close_icon">
-                        </button>
+                <!-- Sidebar -->
+                <div class="sidebar" id="sidebar">
+                    <button class="sidebar-close" id="menuClose">
+                        <img src="assets/images/icons/close_icon.svg" alt="close_icon">
+                    </button>
 
-                        <div class="sidebar-content">
-                            <ul>
-                                <li>
-                                    <select class="flag-select">
-                                        <option value="en">🇺🇸</option>
-                                        <option value="fr">🇫🇷</option>
-                                        <option value="de">🇩🇪</option>
-                                        <option value="es">🇪🇸</option>
-                                    </select>
-                                </li>
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">About</a></li>
-                                <li><a href="#">Services</a></li>
-                                <li><a href="#">Contact</a></li>
-                            </ul>
-                        </div>
+                    <div class="sidebar-content">
+                        <ul>
+                            <li class="flag_select">
+                                <button class="language-btn" id="languageBtn">
+                                    <img src="assets/images/flags/united-states .png" alt="us">
+                                    <i class="fa-solid fa-chevron-down"></i>
+                                </button>
+
+                                <ul class="language-menu" id="languageMenu">
+                                    <li data-lang="en">
+                                        <img src="assets/images/flags/united-states .png" alt="us">
+                                    </li>
+
+                                    <li data-lang="fr">
+                                        <img src="assets/images/flags/france.png" alt="france">
+                                    </li>
+
+                                    <li data-lang="de">
+                                        <img src="assets/images/flags/german-flag.png" alt="german">
+                                    </li>
+
+                                    <li data-lang="es">
+                                        <img src="assets/images/flags/spain.png" alt="spain">
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
                     </div>
-                    <!-- ========== Side Menu Content End -->
+                </div>
+                <!-- ========== Side Menu Content End -->
             </div>
         </nav>
     </header>

@@ -1,33 +1,32 @@
-
 :root {
-  --font-family: "PT Serif", serif;
-  --font-family_allura: "Allura";
-  --background_color: #020202;
-  --primary_color: #9a8462;
-  --heading_color: #9a8462;
-  --body_paragraph_color: #efece0;
-  --link_color: #9a8462;
-  --accent_color: #e2e2e2;
-  --gradient_color: linear-gradient(90deg, #634a22 40%, #ffffff 60%);
-  --black_color: #000000;
-  --black_color_80: #020202cc;
-  --white_color: #ffffff;
-  --about_card_background: #212121;
-  --button_background_color: #f9f9f9;
-  --letter_spacing: -0.015em;
-  --letter_spacing_paragraph: 0.015em;
+	--font-family: "PT Serif", serif;
+	--font-family_allura: "Allura";
+	--background_color: #020202;
+	--primary_color: #9a8462;
+	--heading_color: #9a8462;
+	--body_paragraph_color: #efece0;
+	--link_color: #9a8462;
+	--accent_color: #e2e2e2;
+	--gradient_color: linear-gradient(90deg, #634a22 40%, #ffffff 60%);
+	--black_color: #000000;
+	--black_color_80: #020202cc;
+	--white_color: #ffffff;
+	--about_card_background: #212121;
+	--button_background_color: #f9f9f9;
+	--letter_spacing: -0.015em;
+	--letter_spacing_paragraph: 0.015em;
 
 
-  --font-size: 16px;
-  --line-height: 1.9;
-  --h1_font_size: 32px;
-  --small_card_title: 30px;
-  --h2_font_size: 24px;
-  --accordion_heading_size: 18px;
-  --h3_font_size: 20px;
-  --h4_font_size: 16px;
-  --social_button_size: 14px;
-  --heading_line_height: 1.2;
+	--font-size: 16px;
+	--line-height: 1.9;
+	--h1_font_size: 32px;
+	--small_card_title: 30px;
+	--h2_font_size: 24px;
+	--accordion_heading_size: 18px;
+	--h3_font_size: 20px;
+	--h4_font_size: 16px;
+	--social_button_size: 14px;
+	--heading_line_height: 1.2;
 }
 
 /* ==========================================================================
@@ -36,593 +35,948 @@
 
 /* Extra small devices (300px – 575.98px) */
 @media (min-width: 300px) and (max-width: 575.98px) {
-  :root {
-    --font-size: 16px;
-    --line-height: 1.6;
-    --h1_font_size: 24px;
-    --small_card_title: 22px;
-    --h2_font_size: 24px;
-    --accordion_heading_size: 18px;
-    --h3_font_size: 18px;
-    --h4_font_size: 15px;
-    --social_button_size: 12px;
-  }
-  /* ========== Home Page Responsive Css Start ==========  */
-.not_for_desk{
-    display: block;
-}
-.hero_image img {
-	height: 291px;
-}
-  .theme_button {
-	justify-content: unset;
-}
-.white_button {
-	max-width: 100%;
-	width: 100%;
-}
-.card_item {
-	margin-bottom: 30px;
-}
-.primary_button {
-	max-width: 100%;
-	width: 100%;
-}
-.two_faq_area .accordion-item .accordion-button.collapsed {
-	padding: 20px 20px 10px 20px;
-	height: auto;
-}
-.two_faq_area .accordion-item .accordion-button {
-	padding: 20px 20px 20px 20px;
-	height: auto;
-}
-.small_card_left_card {
-	/* padding-left: unset; */
-	padding-left: calc(var(--bs-gutter-x) * .5);
-}
-.small_card_right_card {
-	/* padding-right: 0px; */
-	padding-right: calc(var(--bs-gutter-x) * .5);
-}
-.small_card_item {
-	margin-bottom: 20px;
-	text-align: center;
-	margin: 30px 30px 10px 30px;
-}
-.mission_right_image img {
-	width: 100%;
-}
-.mission_content {
-	padding-left: 0px;
-	padding-right: 0px;
-}
-.mission_content h2 {
-	text-align: center;
-}
-.mission_right_image p {
-	padding: 0 20px;
-}
-.main_faq_title {
-	text-align: center;
-}
-.main_faq_section .container {
-	background-color: var(--about_card_background);
-	padding-right: var(--bs-gutter-x,.75rem);
-  padding-left: var(--bs-gutter-x,.75rem);
-}
-.main_faq_list_area .accordion-item .accordion-button.collapsed {
-	line-height: 25px;
-}
-.footer_copyright_left ul {
-	justify-content: center;
-}
-.footer_copyright_text {
-    text-align: center !important;
-    margin-top: 20px;
-}
-.section_two_image img {
-	height: 268px;
-}
-.about_faq_image img {
-	height: 644px;
-	margin-top: 20px;
-}
-.sidebar {
-	width: 100%;
-	max-width: 100%;
-	left: 0px;
-}
-.sidebar-content ul li {
-	text-align: start;
-	margin-bottom: 5px;
-}
-.sidebar-close {
-	position: absolute;
-	top: 20px;
-	right: unset;
-	left: 30px;
-}
-.img-fluid {
-	max-width: 100%;
-	height: 696px;
-	object-fit: cover;
-	border-radius: 5px;
-}
-.mission_section .container {
-	padding-right: var(--bs-gutter-x,.75rem);
-  padding-left: var(--bs-gutter-x,.75rem);
-	background-color: var(--about_card_background);
-}
-.about_faq_section .container {
-	background-color: var(--about_card_background);
-	padding: 20px 10px;
-}
-.two_faq_section .container {
-	background-color: var(--about_card_background);
-	padding-right: var(--bs-gutter-x,.75rem);
-  padding-left: var(--bs-gutter-x,.75rem);
-}
-.small_card_item img {
-	width: 100%;
-	height: 225px;
-	margin: 0 auto;
-}
-.footer_left_side_menu {
-    text-align: start !important;
-}
-html,
-body {
-    overflow-x: clip;
-}
-  /* ========== Home Page Responsive Css End ==========  */
-    /* ========== Portfolio Page Responsive Css Start ==========  */
-  .portfolio_items_section .filter-bar ul {
-	display: grid;
-	justify-content: center;
-	gap: 20px;
-}
-  .portfolio_items_section .filter-bar ul li{
-	display: flex;
-	justify-content: center;
-}
-.portfolio_items_section .filter-bar {
-	margin-bottom: 20px;
-	display: grid !important;
-	justify-content: center !important;
-}
-.portfolio_about_content {
-	padding: 20px 0px 40px 0px;
-}
-.filter-bar .d-flex{
-	display: block !important;
-}
-.portfolio_items_section .card_cover_img img {
-	height: 271px;
-	width: 100%;
-}
-.portfolio_page .section_two_image img {
-	height: 103px;
-	width: 100%;
-	object-fit: cover;
-}
-.portfolio_items_section {
-	margin-top: 20px;
-	padding-bottom: 20px;
-}
-.footer_copyright_section {
-	padding-top: 10px;
-	padding-bottom: 50px;
-}
-.portfolio_items_section .container {
-	padding-right: var(--bs-gutter-x,.75rem);
-  padding-left: var(--bs-gutter-x,.75rem);
-}
-.side_menu_icon {
-	margin-left: 0px;
-}
-  /* ========== Portfolio Page Responsive Css End ==========  */
-  /* ========== City Guide Page Responsive Css Start ==========  */
-  .city_guide_card .small_card_item {
-	margin-bottom: 20px;
-	text-align: center;
-	margin: 30px 10px 10px 10px;
-}
-.city_guide_page .city_guide_card {
-	margin-bottom: 20px;
-}
-  /* ========== City Guide Page Responsive Css End ==========  */
-    /* ========== Booking Page Responsive Css Start ==========  */
-  .booking_banner_img img {
-	display: none;
-}
-.booking_banner_right_content{
-	margin-top: 30px;
-}
-.booking_side_image_content_left h3 {
-	text-align: end !important;
-}
-.booking_side_image_content_left p {
-	text-align: end !important;
-}
-.booking_side_image_content_left ul {
-	text-align: end !important;
-}
-.booking_side_image_content_left ul li {
-	justify-content: end !important;
-}
-.booking_side_image_img{
-	text-align: center;
-}
-.booking_side_image_img img {
-	width: 95% !important;
-	height: 385px !important;
-	object-fit: cover;
-	margin: 0 auto;
-}
-.booking_side_image_content {
-	padding-right: 0px;
-}
-.booking_side_image_content_left {
-	margin-left: 0px;
-}
-  /* ========== Booking Page Responsive Css End ==========  */
-   /* ========== Services Page Responsive Css Start ==========  */
-  .servce_card_content{
-	margin-bottom: 20px;
-	margin-top: 20px;
-  }
-  .services_card_image img {
-	height: 276px;
-}
-  /* ========== Single Service Page ==========  */
-  .service_signle_img_and_content img {
-	height: 276px;
-}
-.white_button h2 {
-	color: var(--black_color);
-	margin-bottom: 0px;
-	font-size: var(--font-size);
-}
-  /* ========== Services Page Responsive Css End ==========  */
-   /* ========== Services Page Responsive Css Start ==========  */
-  .servce_card_content{
-	margin-bottom: 20px;
-	margin-top: 20px;
-  }
-  /* ========== Services Page Responsive Css End ==========  */
-    /* ========== News And Blogs Page Responsive Css Start ==========  */
-  .news_blogs_content {
-	margin-top: 20px;
-	margin-bottom: 10px;
-}
-.newsblogsimage{
-	padding-left: 0px !important;
-	padding-right: 0px !important;
-}
-.news_blogs_image img {
-	padding-left: 0px inherit;
-	padding-right: 0px;
-}
-.news_blogs_image img {
-	height: 350px !important;
-}
-  /* ========== News And Blogs Page Responsive Css End ==========  */
-      /* ========== Single News Page Responsive Css Start ==========  */
-	.single_news_section{
+	:root {
+		--font-size: 16px;
+		--line-height: 1.6;
+		--h1_font_size: 24px;
+		--small_card_title: 22px;
+		--h2_font_size: 24px;
+		--accordion_heading_size: 18px;
+		--h3_font_size: 18px;
+		--h4_font_size: 15px;
+		--main_manu_size: 22px;
+		--social_button_size: 12px;
+	}
+
+	/* ========== Home Page Responsive Css Start ==========  */
+	.sidebar-content ul li a {
+		font-size: var(--main_manu_size);
+	}
+
+	.not_for_desk {
+		display: block;
+	}
+
+	.hero_image img {
+		height: 291px;
+	}
+
+	.theme_button {
+		justify-content: unset;
+	}
+
+	.white_button {
+		max-width: 100%;
+		width: 100%;
+	}
+
+	.card_item {
+		margin-bottom: 30px;
+	}
+
+	.primary_button {
+		max-width: 100%;
+		width: 100%;
+	}
+
+	.two_faq_area .accordion-item .accordion-button.collapsed {
+		padding: 20px 20px 10px 20px;
+		height: auto;
+	}
+
+	.two_faq_area .accordion-item .accordion-button {
+		padding: 20px 20px 20px 20px;
+		height: auto;
+	}
+
+	.small_card_left_card {
+		/* padding-left: unset; */
+		padding-left: calc(var(--bs-gutter-x) * .5);
+	}
+
+	.small_card_right_card {
+		/* padding-right: 0px; */
+		padding-right: calc(var(--bs-gutter-x) * .5);
+	}
+
+	.small_card_item {
+		margin-bottom: 20px;
+		text-align: center;
+		margin: 30px 30px 10px 30px;
+	}
+
+	.mission_right_image img {
+		width: 100%;
+	}
+
+	.mission_content {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+	.mission_content h2 {
+		text-align: center;
+	}
+
+	.mission_right_image p {
+		padding: 0 20px;
+	}
+
+	.main_faq_title {
+		text-align: center;
+	}
+
+	.main_faq_section .container {
+		background-color: var(--about_card_background);
+		padding-right: var(--bs-gutter-x, .75rem);
+		padding-left: var(--bs-gutter-x, .75rem);
+	}
+
+	.main_faq_list_area .accordion-item .accordion-button.collapsed {
+		line-height: 25px;
+	}
+
+	.footer_copyright_left ul {
+		justify-content: center;
+	}
+
+	.footer_copyright_text {
+		text-align: center !important;
 		margin-top: 20px;
 	}
-  .single_news_card_items {
-	margin-bottom: 20px;
+
+	.section_two_image img {
+		height: 268px;
+	}
+
+	.about_faq_image img {
+		height: 644px;
+		margin-top: 20px;
+	}
+
+	.sidebar {
+		width: 100%;
+		max-width: 100%;
+		left: 0px;
+	}
+
+	.sidebar-content ul li {
+		text-align: start;
+		margin-bottom: 10px;
+	}
+
+	.sidebar-close {
+		position: absolute;
+		top: 20px;
+		right: unset;
+		left: 30px;
+	}
+
+	.img-fluid {
+		max-width: 100%;
+		height: 696px;
+		object-fit: cover;
+		border-radius: 5px;
+	}
+
+	.mission_section .container {
+		padding-right: var(--bs-gutter-x, .75rem);
+		padding-left: var(--bs-gutter-x, .75rem);
+		background-color: var(--about_card_background);
+	}
+
+	.about_faq_section .container {
+		background-color: var(--about_card_background);
+		padding: 20px 10px;
+	}
+
+	.two_faq_section .container {
+		background-color: var(--about_card_background);
+		padding-right: var(--bs-gutter-x, .75rem);
+		padding-left: var(--bs-gutter-x, .75rem);
+	}
+
+	.small_card_item img {
+		width: 100%;
+		height: 225px;
+		margin: 0 auto;
+	}
+
+	.footer_left_side_menu {
+		text-align: start !important;
+	}
+
+	html,
+	body {
+		overflow-x: clip;
+	}
+
+	.language-menu {
+		position: absolute;
+		top: 21px;
+		right: unset;
+		width: auto;
+		background: var(--about_card_background);
+		border: none;
+		border-radius: 8px;
+		list-style: none;
+		margin: 0;
+		padding: 6px 0;
+		display: none;
+		z-index: 999;
+		left: 0px;
+	}
+
+	/* ========== Home Page Responsive Css End ==========  */
+	/* ========== Portfolio Page Responsive Css Start ==========  */
+	.portfolio_items_section .filter-bar ul {
+		display: grid;
+		justify-content: center;
+		gap: 20px;
+	}
+
+	.portfolio_items_section .filter-bar ul li {
+		display: flex;
+		justify-content: center;
+	}
+
+	.portfolio_items_section .filter-bar {
+		margin-bottom: 20px;
+		display: grid !important;
+		justify-content: center !important;
+	}
+
+	.portfolio_about_content {
+		padding: 20px 0px 40px 0px;
+	}
+
+	.filter-bar .d-flex {
+		display: block !important;
+	}
+
+	.portfolio_items_section .card_cover_img img {
+		height: 271px;
+		width: 100%;
+	}
+
+	.portfolio_page .section_two_image img {
+		height: 103px;
+		width: 100%;
+		object-fit: cover;
+	}
+
+	.portfolio_items_section {
+		margin-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	.footer_copyright_section {
+		padding-top: 10px;
+		padding-bottom: 50px;
+	}
+
+	.portfolio_items_section .container {
+		padding-right: var(--bs-gutter-x, .75rem);
+		padding-left: var(--bs-gutter-x, .75rem);
+	}
+
+	.side_menu_icon {
+		margin-left: 0px;
+	}
+
+	/* ========== Portfolio Page Responsive Css End ==========  */
+	/* ========== City Guide Page Responsive Css Start ==========  */
+	.city_guide_card .small_card_item {
+		margin-bottom: 20px;
+		text-align: center;
+		margin: 30px 10px 10px 10px;
+	}
+
+	.city_guide_page .city_guide_card {
+		margin-bottom: 20px;
+	}
+
+	/* ========== City Guide Page Responsive Css End ==========  */
+	/* ========== Booking Page Responsive Css Start ==========  */
+	.booking_banner_img img {
+		display: none;
+	}
+
+	.booking_banner_right_content {
+		margin-top: 30px;
+	}
+
+	.booking_side_image_content_left h3 {
+		text-align: end !important;
+	}
+
+	.booking_side_image_content_left p {
+		text-align: end !important;
+	}
+
+	.booking_side_image_content_left ul {
+		text-align: end !important;
+	}
+
+	.booking_side_image_content_left ul li {
+		justify-content: end !important;
+	}
+
+	.booking_side_image_img {
+		text-align: center;
+	}
+
+	.booking_side_image_img img {
+		width: 95% !important;
+		height: 385px !important;
+		object-fit: cover;
+		margin: 0 auto;
+	}
+
+	.booking_side_image_content {
+		padding-right: 0px;
+	}
+
+	.booking_side_image_content_left {
+		margin-left: 0px;
+	}
+
+	/* ========== Booking Page Responsive Css End ==========  */
+	/* ========== Services Page Responsive Css Start ==========  */
+	.servce_card_content {
+		margin-bottom: 20px;
+		margin-top: 20px;
+	}
+
+	.services_card_image img {
+		height: 276px;
+	}
+
+	/* ========== Single Service Page ==========  */
+	.service_signle_img_and_content img {
+		height: 276px;
+	}
+
+	.white_button h2 {
+		color: var(--black_color);
+		margin-bottom: 0px;
+		font-size: var(--font-size);
+	}
+
+	/* ========== Services Page Responsive Css End ==========  */
+	/* ========== Services Page Responsive Css Start ==========  */
+	.servce_card_content {
+		margin-bottom: 20px;
+		margin-top: 20px;
+	}
+
+	/* ========== Services Page Responsive Css End ==========  */
+	/* ========== News And Blogs Page Responsive Css Start ==========  */
+	.news_blogs_content {
+		margin-top: 20px;
+		margin-bottom: 10px;
+	}
+
+	.newsblogsimage {
+		padding-left: 0px !important;
+		padding-right: 0px !important;
+	}
+
+	.news_blogs_image img {
+		padding-left: 0px inherit;
+		padding-right: 0px;
+	}
+
+	.news_blogs_image img {
+		height: 350px !important;
+	}
+
+	/* ========== News And Blogs Page Responsive Css End ==========  */
+	/* ========== Single News Page Responsive Css Start ==========  */
+	.single_news_section {
+		margin-top: 20px;
+	}
+
+	.single_news_card_items {
+		margin-bottom: 20px;
+	}
+
+	.single_news_card_section {
+		padding-top: 30px;
+		margin-bottom: 30px;
+	}
+
+	/* ========== Single News Page Responsive Css End ==========  */
+	/* ========== Spacial Page Responsive Css Start ==========  */
+	.special_text_and_button .container {
+		background-color: var(--white_color);
+		padding-right: var(--bs-gutter-x, .75rem);
+		padding-left: var(--bs-gutter-x, .75rem);
+		padding-top: 20px;
+		padding-bottom: 0px;
+	}
+
+	.special_text_area p {
+		padding-right: 0px;
+		color: var(--background_color);
+	}
+
+	.spacial_button_col {
+		background-image: url(../images/spacial_button_bg.webp);
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		padding-top: 20px;
+	}
+
+	.spacial_overview_card_section .container {
+		background: linear-gradient(180deg, #9A8462 49.04%, #FFFFFF 100%);
+		padding: 0px 0px;
+	}
+
+	.spacial_overview_card_items {
+		position: relative;
+		margin: 0px;
+		cursor: pointer;
+		margin-bottom: 45px;
+	}
+
+	.spacial_page_card_with_more .container {
+		background: var(--white_color);
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+	.spacial_page_card_with_more .portfolio_card_item {
+		background-color: var(--white_color, #ffffff);
+		overflow: hidden;
+		padding: 0px 0px;
+	}
+
+	.spacial_page_last_content img {
+		height: 200px;
+		width: 80%;
+		object-fit: cover;
+		margin: 0 auto;
+	}
+
+	.spacial_overview_button .container {
+		background-color: var(--white_color);
+		padding: 30px 0;
+	}
+
+	.spacial_card_title h1 {
+		padding: 0px 40px;
+	}
+
+	/* ========== Spacial Page Responsive Css End ==========  */
+	.spacial_single_banner_content {
+		width: 100% !important;
+	}
+
+	.spacial_single_banner_content img {
+		width: 100%;
+		height: 150px;
+		margin-bottom: 60px;
+	}
+
+	.spacial_signle_banner .container {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+	.spacial_slider_link_area a {
+		font-size: 16px;
+	}
+
+	.spacial_slider_back_next_button button.spacial_back_button {
+		font-size: 16px;
+	}
+
+	.spacial_slider_back_next_button button.spacial_next_button {
+		font-size: 16px;
+	}
+	.spacial_single_h2_card {
+	gap: 20px;
 }
-.single_news_card_section {
-	padding-top: 30px;
-	margin-bottom: 30px;
+.spacial_single_card_left ul li p {
+	font-size: 16px;
 }
-  /* ========== Single News Page Responsive Css End ==========  */
 }
 
 /* Small devices (576px – 767.98px) */
 @media (min-width: 576px) and (max-width: 767.98px) {
-  :root {
-    --font-size: 15px;
-    --line-height: 1.7;
-    --h1_font_size: 26px;
-    --small_card_title: 24px;
-    --h2_font_size: 21px;
-    --accordion_heading_size: 16px;
-    --h3_font_size: 19px;
-    --h4_font_size: 15px;
-    --social_button_size: 13px;
-  }
-  /* ========== Home Page Responsive Css Start ==========  */
-  .side_menu_icon {
-	margin-left: 0px;
-}
-.not_for_desk{
-    display: block;
-}
- .hero_image img {
-	height: 291px;
-}
-  .theme_button {
-	justify-content: unset;
-}
-.white_button {
-	max-width: 100%;
-	width: 100%;
-}
-.card_item {
-	margin-bottom: 30px;
-}
-.primary_button {
-	max-width: 100%;
-	width: 100%;
-}
-.two_faq_area .accordion-item .accordion-button.collapsed {
-	padding: 20px 20px 10px 20px;
-	height: auto;
-}
-.two_faq_area .accordion-item .accordion-button {
-	padding: 20px 20px 20px 20px;
-	height: auto;
-}
-.small_card_left_card {
-	/* padding-left: unset; */
-	padding-left: calc(var(--bs-gutter-x) * .5);
-}
-.small_card_right_card {
-	/* padding-right: 0px; */
-	padding-right: calc(var(--bs-gutter-x) * .5);
-}
-.small_card_item {
-	margin-bottom: 20px;
-}
-.mission_right_image img {
-	width: 100%;
-}
-.mission_content {
-	padding-left: 20px;
-	padding-right: 20px;
-}
-.footer_copyright_left ul {
-	justify-content: center;
-}
-.footer_copyright_text {
-    text-align: center !important;
-    margin-top: 20px;
-}
-.section_two_image img {
-	height: 268px;
-}
-.about_faq_image img {
-	height: 644px;
-	margin-top: 20px;
-}
-.sidebar {
-	width: 100%;
-	max-width: 100%;
-	left: 0px;
-}
-.sidebar-content ul li {
-	text-align: start;
-	margin-bottom: 5px;
-}
-.sidebar-close {
-	position: absolute;
-	top: 20px;
-	right: unset;
-	left: 30px;
-}
-  /* ========== Home Page Responsive Css End ==========  */
-  /* ========== Portfolio Page Responsive Css Start ==========  */
-  .portfolio_items_section .filter-bar ul {
-	display: grid;
-	justify-content: center;
-	gap: 20px;
-}
-  .portfolio_items_section .filter-bar ul li{
-	display: flex;
-	justify-content: center;
-}
-.portfolio_items_section .filter-bar {
-	margin-bottom: 20px;
-	display: grid !important;
-	justify-content: center !important;
-}
-  /* ========== Portfolio Page Responsive Css End ==========  */
-    /* ========== Booking Page Responsive Css Start ==========  */
-  .booking_banner_img img {
-	display: none;
-}
-.booking_banner_right_content{
-	margin-top: 30px;
-}
-.booking_side_image_content_left h3 {
-	text-align: end !important;
-}
-.booking_side_image_content_left p {
-	text-align: end !important;
-}
-.booking_side_image_content_left ul {
-	text-align: end !important;
-}
-.booking_side_image_content_left ul li {
-	justify-content: end !important;
-}
-  /* ========== Booking Page Responsive Css End ==========  */
-  /* ========== Services Page Responsive Css Start ==========  */
-  .servce_card_content{
-	margin-bottom: 20px;
-	margin-top: 20px;
-  }
-  /* ========== Services Page Responsive Css End ==========  */
-    /* ========== News And Blogs Page Responsive Css Start ==========  */
-  .news_blogs_content {
-	margin-top: 20px;
-	margin-bottom: 10px;
-}
-  /* ========== News And Blogs Page Responsive Css End ==========  */
-    /* ========== Single News Page Responsive Css Start ==========  */
-	.single_news_section{
+	:root {
+		--font-size: 15px;
+		--line-height: 1.7;
+		--h1_font_size: 26px;
+		--small_card_title: 24px;
+		--h2_font_size: 21px;
+		--accordion_heading_size: 16px;
+		--h3_font_size: 19px;
+		--h4_font_size: 15px;
+		--social_button_size: 13px;
+	}
+
+	/* ========== Home Page Responsive Css Start ==========  */
+	.side_menu_icon {
+		margin-left: 0px;
+	}
+
+	.not_for_desk {
+		display: block;
+	}
+
+	.hero_image img {
+		height: 291px;
+	}
+
+	.theme_button {
+		justify-content: unset;
+	}
+
+	.white_button {
+		max-width: 100%;
+		width: 100%;
+	}
+
+	.card_item {
+		margin-bottom: 30px;
+	}
+
+	.primary_button {
+		max-width: 100%;
+		width: 100%;
+	}
+
+	.two_faq_area .accordion-item .accordion-button.collapsed {
+		padding: 20px 20px 10px 20px;
+		height: auto;
+	}
+
+	.two_faq_area .accordion-item .accordion-button {
+		padding: 20px 20px 20px 20px;
+		height: auto;
+	}
+
+	.small_card_left_card {
+		/* padding-left: unset; */
+		padding-left: calc(var(--bs-gutter-x) * .5);
+	}
+
+	.small_card_right_card {
+		/* padding-right: 0px; */
+		padding-right: calc(var(--bs-gutter-x) * .5);
+	}
+
+	.small_card_item {
+		margin-bottom: 20px;
+	}
+
+	.mission_right_image img {
+		width: 100%;
+	}
+
+	.mission_content {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.footer_copyright_left ul {
+		justify-content: center;
+	}
+
+	.footer_copyright_text {
+		text-align: center !important;
 		margin-top: 20px;
 	}
-  .single_news_card_items {
-	margin-bottom: 20px;
-}
-.single_news_card_section {
-	padding-top: 30px;
-	margin-bottom: 30px;
-}
-  /* ========== Single News Page Responsive Css End ==========  */
+
+	.section_two_image img {
+		height: 268px;
+	}
+
+	.about_faq_image img {
+		height: 644px;
+		margin-top: 20px;
+	}
+
+	.sidebar {
+		width: 100%;
+		max-width: 100%;
+		left: 0px;
+	}
+
+	.sidebar-content ul li {
+		text-align: start;
+		margin-bottom: 5px;
+	}
+
+	.sidebar-close {
+		position: absolute;
+		top: 20px;
+		right: unset;
+		left: 30px;
+	}
+
+	.language-menu {
+		position: absolute;
+		top: 21px;
+		right: unset;
+		width: auto;
+		background: var(--about_card_background);
+		border: none;
+		border-radius: 8px;
+		list-style: none;
+		margin: 0;
+		padding: 6px 0;
+		display: none;
+		z-index: 999;
+		left: 0px;
+	}
+
+	/* ========== Home Page Responsive Css End ==========  */
+	/* ========== Portfolio Page Responsive Css Start ==========  */
+	.portfolio_items_section .filter-bar ul {
+		display: grid;
+		justify-content: center;
+		gap: 20px;
+	}
+
+	.portfolio_items_section .filter-bar ul li {
+		display: flex;
+		justify-content: center;
+	}
+
+	.portfolio_items_section .filter-bar {
+		margin-bottom: 20px;
+		display: grid !important;
+		justify-content: center !important;
+	}
+
+	/* ========== Portfolio Page Responsive Css End ==========  */
+	/* ========== Booking Page Responsive Css Start ==========  */
+	.booking_banner_img img {
+		display: none;
+	}
+
+	.booking_banner_right_content {
+		margin-top: 30px;
+	}
+
+	.booking_side_image_content_left h3 {
+		text-align: end !important;
+	}
+
+	.booking_side_image_content_left p {
+		text-align: end !important;
+	}
+
+	.booking_side_image_content_left ul {
+		text-align: end !important;
+	}
+
+	.booking_side_image_content_left ul li {
+		justify-content: end !important;
+	}
+
+	/* ========== Booking Page Responsive Css End ==========  */
+	/* ========== Services Page Responsive Css Start ==========  */
+	.servce_card_content {
+		margin-bottom: 20px;
+		margin-top: 20px;
+	}
+
+	/* ========== Services Page Responsive Css End ==========  */
+	/* ========== News And Blogs Page Responsive Css Start ==========  */
+	.news_blogs_content {
+		margin-top: 20px;
+		margin-bottom: 10px;
+	}
+
+	/* ========== News And Blogs Page Responsive Css End ==========  */
+	/* ========== Single News Page Responsive Css Start ==========  */
+	.single_news_section {
+		margin-top: 20px;
+	}
+
+	.single_news_card_items {
+		margin-bottom: 20px;
+	}
+
+	.single_news_card_section {
+		padding-top: 30px;
+		margin-bottom: 30px;
+	}
+
+	/* ========== Single News Page Responsive Css End ==========  */
+	.spacial_single_banner_content {
+		width: 100% !important;
+	}
+
+	.spacial_single_banner_content img {
+		width: 100%;
+		height: 150px;
+		margin-bottom: 60px;
+	}
 }
 
 /* Medium devices (768px – 991.98px) */
 @media (min-width: 768px) and (max-width: 991.98px) {
-  :root {
-    --font-size: 15px;
-    --line-height: 1.8;
-    --h1_font_size: 28px;
-    --small_card_title: 26px;
-    --h2_font_size: 22px;
-    --accordion_heading_size: 17px;
-    --h3_font_size: 19px;
-    --h4_font_size: 16px;
-    --social_button_size: 13px;
-  }
-/* ========== Home Page Responsive Css Start ==========  */
-.not_for_desk{
-    display: block;
-}
-.hero_image img {
-	height: 400px;
-}
-  .theme_button {
-	justify-content: unset;
-}
-.white_button {
-	max-width: 100%;
-	width: 100%;
-}
-.card_item {
-	margin-bottom: 30px;
-}
-.primary_button {
-	max-width: 100%;
-	width: 100%;
-}
-.two_faq_area .accordion-item .accordion-button.collapsed {
-	padding: 20px 20px 10px 20px;
-	height: auto;
-}
-.two_faq_area .accordion-item .accordion-button {
-	padding: 20px 20px 20px 20px;
-	height: auto;
-}
-.small_card_left_card {
-	/* padding-left: unset; */
-	padding-left: calc(var(--bs-gutter-x) * .5);
-}
-.small_card_right_card {
-	/* padding-right: 0px; */
-	padding-right: calc(var(--bs-gutter-x) * .5);
-}
-.small_card_item {
-	margin-bottom: 20px;
-}
-.mission_right_image img {
-	width: 100%;
-}
-.mission_content {
-	padding-left: 20px;
-	padding-right: 20px;
-}
-.footer_copyright_left ul {
-	justify-content: center;
-}
-.footer_copyright_text {
-    text-align: center !important;
-    margin-top: 20px;
-}
-  /* ========== Home Page Responsive Css End ==========  */
-  /* ========== Booking Page Responsive Css Start ==========  */
-  .booking_banner_img img {
-	display: none;
-}
-.booking_banner_right_content{
-	margin-top: 30px;
-}
-.booking_side_image_content_left h3 {
-	text-align: end !important;
-}
-.booking_side_image_content_left p {
-	text-align: end !important;
-}
-.booking_side_image_content_left ul {
-	text-align: end !important;
-}
-.booking_side_image_content_left ul li {
-	justify-content: end !important;
-}
-  /* ========== Booking Page Responsive Css End ==========  */
-  /* ========== Services Page Responsive Css Start ==========  */
-  .servce_card_content{
-	margin-bottom: 20px;
-	margin-top: 20px;
-  }
-  /* ========== Services Page Responsive Css End ==========  */
-  /* ========== News And Blogs Page Responsive Css Start ==========  */
-  .news_blogs_content {
-	margin-top: 20px;
-	margin-bottom: 10px;
-}
+	:root {
+		--font-size: 15px;
+		--line-height: 1.8;
+		--h1_font_size: 28px;
+		--small_card_title: 26px;
+		--h2_font_size: 22px;
+		--accordion_heading_size: 17px;
+		--h3_font_size: 19px;
+		--h4_font_size: 16px;
+		--social_button_size: 13px;
+	}
 
-  /* ========== News And Blogs Page Responsive Css End ==========  */
-  /* ========== Single News Page Responsive Css Start ==========  */
-  .single_news_card_items {
-	margin-bottom: 20px;
-}
-  /* ========== Single News Page Responsive Css End ==========  */
-  
+	/* ========== Home Page Responsive Css Start ==========  */
+	.not_for_desk {
+		display: block;
+	}
+
+	.hero_image img {
+		height: 400px;
+	}
+
+	.theme_button {
+		justify-content: unset;
+	}
+
+	.white_button {
+		max-width: 100%;
+		width: 100%;
+	}
+
+	.card_item {
+		margin-bottom: 30px;
+	}
+
+	.primary_button {
+		max-width: 100%;
+		width: 100%;
+	}
+
+	.two_faq_area .accordion-item .accordion-button.collapsed {
+		padding: 20px 20px 10px 20px;
+		height: auto;
+	}
+
+	.two_faq_area .accordion-item .accordion-button {
+		padding: 20px 20px 20px 20px;
+		height: auto;
+	}
+
+	.small_card_left_card {
+		/* padding-left: unset; */
+		padding-left: calc(var(--bs-gutter-x) * .5);
+	}
+
+	.small_card_right_card {
+		/* padding-right: 0px; */
+		padding-right: calc(var(--bs-gutter-x) * .5);
+	}
+
+	.small_card_item {
+		margin-bottom: 20px;
+	}
+
+	.mission_right_image img {
+		width: 100%;
+	}
+
+	.mission_content {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.footer_copyright_left ul {
+		justify-content: center;
+	}
+
+	.footer_copyright_text {
+		text-align: center !important;
+		margin-top: 20px;
+	}
+
+	/* ========== Home Page Responsive Css End ==========  */
+	/* ========== Booking Page Responsive Css Start ==========  */
+	.booking_banner_img img {
+		display: none;
+	}
+
+	.booking_banner_right_content {
+		margin-top: 30px;
+	}
+
+	.booking_side_image_content_left h3 {
+		text-align: end !important;
+	}
+
+	.booking_side_image_content_left p {
+		text-align: end !important;
+	}
+
+	.booking_side_image_content_left ul {
+		text-align: end !important;
+	}
+
+	.booking_side_image_content_left ul li {
+		justify-content: end !important;
+	}
+
+	/* ========== Booking Page Responsive Css End ==========  */
+	/* ========== Services Page Responsive Css Start ==========  */
+	.servce_card_content {
+		margin-bottom: 20px;
+		margin-top: 20px;
+	}
+
+	/* ========== Services Page Responsive Css End ==========  */
+	/* ========== News And Blogs Page Responsive Css Start ==========  */
+	.news_blogs_content {
+		margin-top: 20px;
+		margin-bottom: 10px;
+	}
+
+	/* ========== News And Blogs Page Responsive Css End ==========  */
+	/* ========== Single News Page Responsive Css Start ==========  */
+	.single_news_card_items {
+		margin-bottom: 20px;
+	}
+
+	/* ========== Single News Page Responsive Css End ==========  */
+	.spacial_single_kalo_card img.cover_image {
+		width: 100%;
+	}
+
+	.spacial_kalo_card_content {
+		width: 100%;
+	}
+
+	.spacial_single_kalo_card {
+		margin-bottom: 30px;
+	}
+
 }
 
 /* Large devices (992px – 1199.98px) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
-  :root {
-    --font-size: 16px;
-    --line-height: 1.85;
-    --h1_font_size: 30px;
-    --small_card_title: 28px;
-    --h2_font_size: 23px;
-    --accordion_heading_size: 17px;
-    --h3_font_size: 20px;
-    --h4_font_size: 16px;
-    --social_button_size: 14px;
-  }
-  /* ========== Home Page Responsive Css Start ==========  */
-  .hero_image img {
-    height: 500px;
-  }
-  .theme_button {
-	justify-content: unset;
-}
-.white_button {
-	width: 100%;
-}
-.footer_copyright_section {
-	padding-top: 10px;
-	padding-bottom: 50px;
-}
-  /* ========== Home Page Responsive Css End ==========  */
+	:root {
+		--font-size: 16px;
+		--line-height: 1.85;
+		--h1_font_size: 30px;
+		--small_card_title: 28px;
+		--h2_font_size: 23px;
+		--accordion_heading_size: 17px;
+		--h3_font_size: 20px;
+		--h4_font_size: 16px;
+		--social_button_size: 14px;
+	}
+
+	/* ========== Home Page Responsive Css Start ==========  */
+	.hero_image img {
+		height: 500px;
+	}
+
+	.theme_button {
+		justify-content: unset;
+	}
+
+	.white_button {
+		width: 100%;
+	}
+
+	.footer_copyright_section {
+		padding-top: 10px;
+		padding-bottom: 50px;
+	}
+
+	/* ========== Home Page Responsive Css End ==========  */
+
+	.spacial_single_kalo_card img.cover_image {
+		width: 100%;
+	}
+
+	.spacial_kalo_card_content {
+		width: 100%;
+	}
 }
 
 /* Extra large devices (1200px – 1399.98px) */
 @media (min-width: 1200px) and (max-width: 1399.98px) {
-  
+
+	.language-btn img {
+		width: 35px;
+		height: auto;
+	}
+
+	.language-menu img {
+		width: 35px;
+		height: auto;
+	}
+
+	.language-menu {
+		top: 28px;
+	}
 }
+
 
 /* Ultra large / wide screens (1400px and up) */
 @media (min-width: 1400px) {
-  .container {
-    max-width: 1200px !important;
-  }
+	:root {
+		--main_manu_size: 28px;
+	}
+
+	.container {
+		max-width: 1200px !important;
+	}
+
+	.language-btn img {
+		width: 34px;
+		height: auto;
+	}
+
+	.language-menu img {
+		width: 30px;
+		height: auto;
+	}
+
+	.language-menu {
+		top: 28px;
+	}
+
+	.sidebar-content ul li a {
+		font-size: var(--main_manu_size);
+	}
+}
+
+/* Extra large devices (1200px – 1399.98px) */
+@media (min-width: 1600px) and (max-width: 2500px) {
+	:root {
+		--main_manu_size: 34px;
+	}
+
+	.language-btn img {
+		width: 40px;
+		height: auto;
+		margin-bottom: 10px;
+	}
+
+	.language-menu img {
+		width: 34px;
+		height: auto;
+	}
+
+	.language-menu {
+		top: 38px;
+	}
+
+	.sidebar-content ul li a {
+		font-size: var(--main_manu_size);
+	}
 }

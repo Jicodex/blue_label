@@ -1,3 +1,24 @@
+// ========== Side Manu Language Select JS Script 
+const btn = document.getElementById("languageBtn");
+const menu = document.getElementById("languageMenu");
+
+btn.addEventListener("click", function (e) {
+    e.stopPropagation();
+    menu.classList.toggle("show");
+});
+
+document.querySelectorAll("#languageMenu li").forEach(item => {
+    item.addEventListener("click", function () {
+        btn.querySelector("img").src = this.querySelector("img").src;
+        menu.classList.remove("show");
+    });
+});
+
+document.addEventListener("click", function () {
+    menu.classList.remove("show");
+});
+
+
 // ======== Side Menu Show - Hide Logic JS 
 const menuOpenButtons = document.querySelectorAll('.menu-open-btn');
 const menuClose = document.getElementById('menuClose');
@@ -52,4 +73,66 @@ document.addEventListener("DOMContentLoaded", function () {
       });
     });
   });
+});
+
+// ========== Spacial Single page Slider JS Script 
+$('.spacial_single_slider_main').slick({
+  centerMode: true,
+  centerPadding: '0px',
+  slidesToShow: 3,
+  prevArrow: $('.spacial_back_button'),
+    nextArrow: $('.spacial_next_button'),
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '0px',
+        slidesToShow: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '0px',
+        slidesToShow: 1
+      }
+    }
+  ]
+});
+
+$('.spacial_kalo_slider_main').slick({
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    arrows: false,
+    infinite: true,
+
+    responsive: [
+        {
+            breakpoint: 1200,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1
+            }
+        },
+        {
+            breakpoint: 992,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1
+            }
+        },
+        {
+            breakpoint: 576,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
+        }
+    ]
 });

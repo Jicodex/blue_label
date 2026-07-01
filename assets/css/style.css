@@ -80,6 +80,7 @@
     --black_color_80: #020202CC;
     --white_color: #ffffff;
     --white_color_50: #FFFFFF80;
+    --white_color_70: #FFFFFFB2;
     --about_card_background: #212121;
     --button_background_color: #f9f9f9;
     --letter_spacing: -0.015em;
@@ -89,6 +90,7 @@
     --h1_font_size: 32px;
     --small_card_title: 30px;
     --h2_font_size: 24px;
+    --main_manu_size: 24px;
     --accordion_heading_size: 18px;
     --h3_font_size: 20px;
     --h4_font_size: 16px;
@@ -284,8 +286,9 @@ body {
 .sidebar-content ul li a {
     text-decoration: none;
     color: var(--primary_color);
-    font-size: var(--h2_font_size);
+    font-size: var(--main_manu_size);
     font-weight: 700;
+    text-transform: uppercase;
 }
 
 .sidebar-content ul li a:hover {
@@ -306,6 +309,74 @@ body {
     display: none;
 }
 
+.language-dropdown {
+    position: relative;
+    width: 220px;
+    font-family: sans-serif;
+}
+
+.language-btn {
+    width: auto;
+    align-items: end;
+    gap: 10px;
+    background: transparent;
+    border: none;
+    /* padding: 12px 15px; */
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.language-btn img {
+    width: 24px;
+    height: auto;
+}
+
+.language-btn span {
+    flex: 1;
+    text-align: left;
+}
+
+.flag_select {
+    position: relative;
+}
+
+.language-menu {
+    position: absolute;
+    top: 21px;
+    right: 0px;
+    width: auto;
+    background: var(--about_card_background);
+    border: none;
+    border-radius: 8px;
+    list-style: none;
+    margin: 0;
+    padding: 6px 0;
+    display: none;
+    z-index: 999;
+}
+
+.language-menu.show {
+    display: block;
+}
+
+.language-menu li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.language-menu li:hover {
+    background: #f5f5f5;
+    border-radius: 8px;
+}
+
+.language-menu img {
+    width: 24px;
+    height: auto;
+}
 
 /* ========== Header Section Css End ==========  */
 
@@ -748,12 +819,12 @@ body {
 }
 
 .mission_right_image img {
-	height: 365px;
-	width: 80%;
-	padding: 0 0;
-	margin: 0 auto;
-	object-fit: cover;
-	border-radius: 5px;
+    height: 365px;
+    width: 80%;
+    padding: 0 0;
+    margin: 0 auto;
+    object-fit: cover;
+    border-radius: 5px;
 }
 
 .mission_content {
@@ -942,7 +1013,7 @@ ul.footer_menu_link li a:hover {
 
 .footer_copyright_section {
     padding-top: 10px;
-    padding-bottom: 150px;
+    padding-bottom: 50px;
 }
 
 .footer_copyright_left ul {
@@ -1305,6 +1376,7 @@ ul.footer_menu_link li a:hover {
 .booking_side_image_content {
     padding-top: 60px;
     padding-right: 30px;
+    margin-bottom: 50px;
 }
 
 .booking_side_image_content_left {
@@ -1379,7 +1451,7 @@ ul.footer_menu_link li a:hover {
 
 .booking_side_image_img img {
     width: 100% !important;
-    height: 600px !important;
+    height: 650px !important;
     object-fit: cover;
 }
 
@@ -1418,6 +1490,29 @@ ul.footer_menu_link li a:hover {
     height: 104px;
     object-fit: cover;
     margin-bottom: 30px;
+}
+
+.height_divider_4 {
+    height: 4px !important;
+}
+
+.defult_single_button {
+    display: unset !important;
+}
+
+.defult_single_button .social_button {
+    font-size: var(--social_button_size);
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    border: none;
+    font-weight: 700;
+    width: 50%;
+    margin-left: auto;
 }
 
 /* ========== City Guide Items Section Css End ==========  */
@@ -1767,3 +1862,505 @@ ul.footer_menu_link li a:hover {
 }
 
 /* ========== News And Blogs Section Css End ==========  */
+
+/* ======================================================  */
+/* ========== Special 1 Overview Page Section Css Start ==========  */
+/* ======================================================  */
+
+/* ========== Special Page Banner Section Css Start ==========  */
+.special_banner_image img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+.spacial_page_button {
+    padding: 9.5px 0;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 100%;
+}
+
+.spacial_page_button h2 {
+    font-size: var(--h2_font_size) !important;
+    color: var(--primary_color);
+}
+
+.spacial_page_button:hover h2 {
+    color: var(--white_color);
+}
+
+.spacial_card_title h1 {
+    font-weight: 700;
+    font-size: var(--h1_font_size);
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: var(--primary_color);
+    margin-bottom: 50px;
+}
+
+.special_text_and_button .container {
+    background-color: var(--primary_color);
+    padding: 45px 40px 10px 40px;
+}
+
+.special_text_area p {
+    font-weight: 700;
+    font-size: var(--font-size);
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: justify;
+    color: var(--body_paragraph_color);
+    padding-right: 60px;
+}
+
+.spacial_overview_card_items {
+    position: relative;
+    margin: 10px 10px 35px 10px;
+    cursor: pointer;
+}
+
+.spacial_overview_card_items img {
+    height: 632px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.spacial_overview_card_over_content {
+    height: 76px;
+    background-color: var(--white_color_70);
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+}
+
+.spacial_overview_card_over_content h3 {
+    font-weight: 700;
+    font-size: var(--h3_font_size);
+    line-height: 29px;
+    letter-spacing: 30%;
+    text-align: center;
+    color: var(--primary_color);
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.spacial_overview_card_over_content p {
+    font-weight: 400;
+    font-size: var(--font-size);
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: var(--primary_color);
+    margin-top: 0px;
+    margin-bottom: 11px;
+}
+
+.spacial_overview_card_section .container {
+    background: linear-gradient(180deg, #9A8462 49.04%, #FFFFFF 100%);
+}
+
+.spacial_overview_button .container {
+    background-color: var(--white_color);
+    padding: 42px 0;
+}
+
+.spacial_botton {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.spacial_botton a {
+    font-weight: 700;
+    font-size: var(--h2_font_size);
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: var(--primary_color);
+    background-color: var(--accent_color);
+    padding: 20px 81px;
+}
+
+.spacial_botton a:hover {
+    color: var(--white_color);
+    background-color: var(--primary_color);
+}
+
+.spacial_botton button {
+    font-weight: 700;
+    font-size: var(--h2_font_size);
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: var(--primary_color);
+    background-color: var(--accent_color);
+    padding: 20px 81px;
+    border: none;
+    transition: all .3s linear;
+}
+
+.spacial_botton button:hover {
+    color: var(--white_color);
+    background-color: var(--primary_color);
+}
+
+.spacial_page_card_with_more .container {
+    background: var(--white_color);
+}
+
+.spacial_page_card_with_more .portfolio_card_item {
+    background-color: var(--white_color, #ffffff);
+    overflow: hidden;
+    padding: 0px 15px;
+}
+
+.spacial_page_card_with_more .portfolio_card_btn {
+    width: 100%;
+    background-color: var(--button_background_color);
+    border: none;
+    color: var(--background_color);
+    font-size: var(--accordion_heading_size);
+    line-height: 1.4;
+    padding: 14px 20px;
+    gap: 15px;
+    outline: none;
+    transition: background-color 0.3s ease;
+}
+
+.spacial_page_card_with_more .portfolio_card_btn img {
+    filter: brightness(0);
+}
+
+.spacial_page_card_with_more .portfolio_card_dropdown_content {
+    background-color: var(--button_background_color);
+    color: var(--background_color);
+    padding: 15px 20px;
+    font-size: var(--font-size);
+    line-height: 1.6;
+}
+
+.spacial_page_last_section .container {
+    background-color: var(--white_color);
+}
+
+.spacial_page_last_content {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.spacial_page_last_content img {
+    height: 200px;
+    width: 400px;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+/* ========== Special Page Banner Section Css End ==========  */
+
+/* ======================================================== */
+/* ========== Special Single Page Css Start ==========  */
+/* ======================================================== */
+
+/* ========== Special Single Banner Css Start ==========  */
+.spacial_signle_banner .container {
+    background: linear-gradient(180deg, #9A8462 0%, #FFFFFF 100%);
+    padding-bottom: 50px;
+    margin-bottom: 85px;
+}
+
+.spacial_single_banner_content {
+    width: 664px !important;
+    background-color: var(--white_color);
+    text-align: center;
+    padding-bottom: 15px;
+    margin: 0 auto;
+}
+
+.spacial_single_banner_content img {
+    width: 300px;
+    height: 243px;
+    margin-bottom: 30px;
+    object-fit: cover;
+}
+
+.spacial_single_banner_content p {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: var(--font-size);
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: var(--primary_color);
+    margin-bottom: 15px;
+}
+
+.spacial_single_banner_content .spacial_single_image_two {
+    width: 100%;
+    height: 774px;
+    object-fit: cover;
+}
+
+.spacial_single_h2_card {
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+}
+
+.spacial_single_card_left {
+    flex: 1;
+}
+
+.spacial_single_card_left ul {
+    list-style-type: none;
+    text-align: end;
+    padding-left: 0px;
+}
+
+.spacial_single_card_left ul li p {
+    font-weight: 400;
+    font-size: var(--h3_font_size);
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: end;
+    color: var(--primary_color);
+    margin-bottom: 5px;
+}
+
+.spacial_single_card_left ul li p span {
+    font-weight: 700;
+    font-size: var(--h3_font_size);
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: end;
+    color: var(--primary_color);
+}
+
+.spacial_single_card_right {
+    flex: 1;
+}
+
+.spacial_single_card_right ul {
+    list-style-type: none;
+    text-align: start;
+    padding-left: 0px;
+}
+
+.spacial_single_card_right ul li p {
+    font-weight: 400;
+    font-size: var(--h3_font_size);
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: start;
+    color: var(--primary_color);
+    margin-bottom: 5px;
+}
+
+.spacial_single_card_right ul li p span {
+    font-weight: 700;
+    font-size: var(--h3_font_size);
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: start;
+    color: var(--primary_color);
+}
+
+.spacial_single_banner_content h5 {
+    font-weight: 700;
+    font-size: var(--small_card_title);
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: var(--primary_color);
+    margin-bottom: 15px;
+}
+
+.spacial_single_slider_area {
+    width: 100%;
+}
+
+.spacialSlider {
+    width: 100%;
+}
+
+.swiper-slide {
+    transition: .35s;
+    transform: scale(.8);
+    opacity: .5;
+}
+
+
+.swiper-slide-active {
+    transform: scale(1);
+    opacity: 1;
+}
+
+.swiper-slide-prev,
+.swiper-slide-next {
+    transform: scale(.9);
+    opacity: .8;
+}
+
+.swiper-slide swiper-slide-prev {
+    background-color: transparent;
+}
+
+.swiper-slide {
+    width: 221.333333px !important;
+    margin-right: 0px !important;
+    height: 243px !important;
+}
+
+.swiper-slide img {
+    width: 100%;
+    display: block;
+    border-radius: 0px !important;
+    height: 100%;
+}
+
+.spacial_slider_back_next_button {
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.spacial_slider_link_area {
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.spacial_slider_back_next_button button.spacial_back_button {
+    font-weight: 700;
+    font-size: var(--h2_font_size);
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: var(--primary_color);
+    background-color: transparent;
+    border: none;
+    transition: all .3s linear;
+    padding-left: 0px;
+}
+
+.spacial_slider_back_next_button button.spacial_next_button {
+    font-weight: 700;
+    font-size: var(--h2_font_size);
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: var(--primary_color);
+    background-color: transparent;
+    border: none;
+    transition: all .3s linear;
+    padding-right: 0px;
+}
+
+.spacial_slider_link_area a {
+    font-weight: 700;
+    font-size: var(--h2_font_size);
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: var(--primary_color);
+    background-color: transparent;
+    border: none;
+    transition: all .3s linear;
+}
+
+.spacial_slider_link_area a:hover {
+    color: var(--background_color);
+}
+
+.spacial_slider_back_next_button button:hover {
+    color: var(--background_color);
+}
+
+.spacial_single_kalo_card {
+    text-align: center;
+}
+
+.spacial_single_kalo_card img.cover_image {
+    height: 243px;
+    width: 252px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin: 0 auto;
+}
+
+.spacial_kalo_card_content {
+    background-color: #212934;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px 20px 20px 20px;
+    width: 252px;
+    margin: 0 auto;
+    text-align: start;
+}
+
+.spacial_kalo_card_content h3 {
+    font-weight: 700;
+    font-size: var(--h2_font_size);
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: var(--white_color);
+}
+
+.spacial_kalo_card_content h3 {
+    font-weight: 700;
+    font-size: var(--h2_font_size);
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: var(--white_color);
+}
+
+.spacial_kalo_card_content a {
+    font-weight: 700;
+    font-size: var(--accordion_heading_size);
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: var(--primary_color);
+    display: flex;
+}
+
+.spacial_kalo_card_content a:hover {
+    color: var(--white_color);
+}
+
+.spacial_kalo_card_content a img {
+    width: 13px;
+    height: 13px;
+    opacity: 1;
+    margin-left: 8px;
+    transition: all .3s linear;
+    justify-self: center;
+    margin-top: 4px;
+}
+
+.spacial_kalo_card_content a:hover img {
+    filter: brightness(0) invert(1);
+}
+
+.spacial_single_kalo_remmus_area {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.spacial_single_kalo_remmus_area h4 {
+    font-weight: 700;
+    font-size: var(--main_manu_size);
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: var(--black_color);
+}
+
+/* ========== Special Single Banner Css End ==========  */
