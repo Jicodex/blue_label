@@ -502,6 +502,9 @@
 .spacial_single_card_left ul li p {
 	font-size: 16px;
 }
+.login_page_form {
+	padding-left: 0px;
+}
 }
 
 /* Small devices (576px – 767.98px) */
@@ -718,6 +721,20 @@
 		height: 150px;
 		margin-bottom: 60px;
 	}
+	.login_page_form {
+	padding-left: 0px;
+	text-align: center;
+}
+.login_page_form form {
+	justify-content: center;
+}
+.login_page_form h2 {
+	margin-top: 50px;
+}
+.login_page_form {
+	margin-bottom: 50px;
+}
+
 }
 
 /* Medium devices (768px – 991.98px) */
@@ -861,6 +878,19 @@
 	.spacial_single_kalo_card {
 		margin-bottom: 30px;
 	}
+	.login_page_form {
+	padding-left: 0px;
+	text-align: center;
+}
+.login_page_form form {
+	justify-content: center;
+}
+.login_page_form h2 {
+	margin-top: 50px;
+}
+.login_page_form {
+	margin-bottom: 50px;
+}
 
 }
 

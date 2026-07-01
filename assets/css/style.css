@@ -2364,3 +2364,84 @@ ul.footer_menu_link li a:hover {
 }
 
 /* ========== Special Single Banner Css End ==========  */
+
+/* ======================================================= */
+/* ========== Login Page Css Start Here ==========  */
+/* ======================================================= */
+
+/* ========== Login Page Banner Css Start ==========  */
+.login_page_banner .container{
+    background-color: var(--about_card_background);
+}
+.login_page_banner{
+    margin-bottom: 20px;
+}
+.login_banner_image img{
+    width: 100%;
+    height: 759px;
+    object-fit: cover;
+}
+.login_page_form{
+    padding-left: 100px;
+}
+.login_page_form h2{
+    font-weight: 700;
+    font-size: var(--h2_font_size);
+    line-height: 29px;
+    letter-spacing: 0%;
+    color: var(--primary_color);
+    margin-bottom: 50px;
+}
+.login_page_form form input{
+    font-weight: 400;
+    font-size: var(--font-size);
+    line-height: 29px;
+    letter-spacing: 0%;
+    margin-bottom: 25px;
+    color: var(--primary_color);
+    padding: 10.5px 20px;
+    width: 350px;
+}
+.login_page_form form input:placeholder{
+    color: #6C6C6C;
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 1; /* Firefox-এর জন্য */
+}
+.login_page_form form input:focus-visible{
+    outline: 0px solid #0d6efd;
+    outline-offset: 2px;
+}
+.login_page_form form button{
+    font-weight: 700;
+    font-size: var(--h2_font_size);
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: var(--black_color);
+    padding: 15.5px 0px;
+    width: 350px;
+    background-color: var(--white_color);
+    border: none;
+    transition: all .3s linear;
+}
+.login_page_form form button:hover{
+    color: var(--body_paragraph_color);
+    background-color: var(--primary_color);
+}
+.login_page_faq_section .faq_accordion_area{
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+}
+.login_page_faq_section .accordion-item {
+	background-color: var(--about_card_background);
+	border: none;
+	border-radius: 0px !important;
+	margin-bottom: 25px;
+}
+.login_page_form form input {
+	width: 100%;
+}
+
+/* ========== Login Page Banner Css End ==========  */
