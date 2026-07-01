@@ -2370,21 +2370,25 @@ ul.footer_menu_link li a:hover {
 /* ======================================================= */
 
 /* ========== Login Page Banner Css Start ==========  */
-.login_page_banner .container{
+.login_page_banner .container {
     background-color: var(--about_card_background);
 }
-.login_page_banner{
+
+.login_page_banner {
     margin-bottom: 20px;
 }
-.login_banner_image img{
+
+.login_banner_image img {
     width: 100%;
     height: 759px;
     object-fit: cover;
 }
-.login_page_form{
+
+.login_page_form {
     padding-left: 100px;
 }
-.login_page_form h2{
+
+.login_page_form h2 {
     font-weight: 700;
     font-size: var(--h2_font_size);
     line-height: 29px;
@@ -2392,7 +2396,8 @@ ul.footer_menu_link li a:hover {
     color: var(--primary_color);
     margin-bottom: 50px;
 }
-.login_page_form form input{
+
+.login_page_form form input {
     font-weight: 400;
     font-size: var(--font-size);
     line-height: 29px;
@@ -2402,17 +2407,21 @@ ul.footer_menu_link li a:hover {
     padding: 10.5px 20px;
     width: 350px;
 }
-.login_page_form form input:placeholder{
+
+.login_page_form form input:placeholder {
     color: #6C6C6C;
     font-size: 14px;
     font-weight: 400;
-    opacity: 1; /* Firefox-এর জন্য */
+    opacity: 1;
+    /* Firefox-এর জন্য */
 }
-.login_page_form form input:focus-visible{
+
+.login_page_form form input:focus-visible {
     outline: 0px solid #0d6efd;
     outline-offset: 2px;
 }
-.login_page_form form button{
+
+.login_page_form form button {
     font-weight: 700;
     font-size: var(--h2_font_size);
     line-height: 29px;
@@ -2425,27 +2434,344 @@ ul.footer_menu_link li a:hover {
     border: none;
     transition: all .3s linear;
 }
-.login_page_form form button:hover{
+
+.login_page_form form button:hover {
     color: var(--body_paragraph_color);
     background-color: var(--primary_color);
 }
-.login_page_faq_section .faq_accordion_area{
+
+.login_page_faq_section .faq_accordion_area {
     padding-left: 0px;
     padding-right: 0px;
     padding-bottom: 0px;
 }
+
 .login_page_faq_section .accordion-item {
-	background-color: var(--about_card_background);
-	border: none;
-	border-radius: 0px !important;
-	margin-bottom: 25px;
-}
-.login_page_form form input {
-	width: 100%;
-}
-.login_page_form form button {
-	width: 100%;
-	margin-bottom: 50px;
+    background-color: var(--about_card_background);
+    border: none;
+    border-radius: 0px !important;
+    margin-bottom: 25px;
 }
 
-/* ========== Login Page Banner Css End ==========  */
+
+
+.application_banner_section .container {
+    background-color: var(--white_color);
+}
+
+.application_banner_image img {
+    width: 100%;
+    height: 627px;
+    object-fit: cover;
+}
+
+.application_banner_content {
+    padding: 30px 20px;
+}
+
+.application_banner_content h2 {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: var(--h2_font_size);
+    line-height: 29px;
+    letter-spacing: 0%;
+    color: var(--primary_color);
+}
+
+.application_banner_content p {
+    font-weight: 400;
+    font-size: var(--font-size);
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: justify;
+    color: var(--background_color);
+}
+
+.application_container_two p {
+    font-weight: 700;
+    font-size: var(--font-size);
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: justify;
+    color: var(--white_color);
+    margin-top: 25px;
+}
+
+.application_container_two {
+    background-color: var(--background_color) !important;
+}
+
+.application_container_two ul {
+    padding-left: 13px;
+}
+
+.application_container_two ul li {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: var(--font-size);
+    line-height: 30px;
+    letter-spacing: 0%;
+    color: var(--white_color);
+    padding-right: 45px;
+}
+
+.application_container_two ul li p {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.application_form_title h2 {
+    font-weight: 700;
+    font-size: var(--h2_font_size);
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: var(--white_color);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.application_form_section .container {
+    background-color: var(--about_card_background);
+}
+
+.application_form_section form input {
+    font-weight: 400;
+    font-size: var(--font-size);
+    line-height: 29px;
+    letter-spacing: 0%;
+    margin-bottom: 25px;
+    color: var(--primary_color);
+    padding: 10.5px 20px;
+    width: 100%;
+}
+
+.application_form_section form textarea {
+    font-weight: 400;
+    font-size: var(--font-size);
+    line-height: 29px;
+    letter-spacing: 0%;
+    margin-bottom: 25px;
+    color: var(--primary_color);
+    padding: 10.5px 20px;
+    width: 100%;
+}
+
+.application_form_section form select {
+    font-weight: 700;
+    font-size: var(--font-size);
+    line-height: 29px;
+    letter-spacing: 0%;
+    margin-bottom: 25px;
+    color: #6C6C6C;
+    padding: 10.5px 20px;
+    width: 100%;
+    background: var(--white_color);
+    border: none;
+}
+
+input:focus-visible {
+    outline: 0px solid #0d6efd;
+    outline-offset: 2px;
+}
+
+textarea:focus-visible {
+    outline: 0px solid #0d6efd;
+    outline-offset: 2px;
+}
+
+.application_form_section input::placeholder,
+.application_form_section textarea::placeholder {
+    color: #6C6C6C;
+    opacity: 1;
+    /* Firefox-এও একই opacity দেখাবে */
+}
+
+/*=========================
+    COMMON
+=========================*/
+
+.custom-radio,
+.custom-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    width: fit-content;
+    user-select: none;
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.custom-radio input,
+.custom-checkbox input {
+    display: none;
+}
+
+/*=========================
+    RADIO
+=========================*/
+
+.radio-box {
+    width: 22px;
+    height: 22px;
+    border: 2px solid #B9B9B9;
+    border-radius: 50%;
+    position: relative;
+    transition: .3s;
+    background-color: var(--white_color);
+    
+	flex-shrink: 0;
+}
+
+.radio-box::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    /* Circle Color */
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: .3s;
+}
+
+.custom-radio input:checked+.radio-box {
+    background: #0d6efd;
+
+    /* Selected Background */
+    .custom-radio input:checked+.radio-box {
+        background: #0d6efd;
+        border: 2px solid #B9B9B9;
+    }
+
+    /* Selected Border */
+}
+
+.custom-radio input:checked+.radio-box::after {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+/*=========================
+    CHECKBOX
+=========================*/
+
+.check-box {
+	width: 24px;
+	height: 24px;
+	border: 1.5px solid #B9B9B9;
+	border-radius: 0px;
+	position: relative;
+	transition: .3s;
+	background-color: var(--white_color);
+	flex-shrink: 0;
+}
+
+.check-box::after {
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 12px;
+    border: solid #fff;
+    /* Tick Color */
+    border-width: 0 3px 3px 0;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%) rotate(45deg) scale(0);
+    transition: .3s;
+}
+
+.chackbox_area span {
+    color: var(--white_color);
+}
+
+.custom-checkbox input:checked+.check-box {
+    background: #008ADF;
+    /* Checked Background */
+    border: 2px solid #B9B9B9;
+}
+
+.custom-checkbox input:checked+.check-box::after {
+    transform: translate(-50%, -50%) rotate(45deg) scale(1);
+}
+
+.select_box_area span {
+    color: var(--white_color);
+}
+
+.file_upload_area {
+    width: 100%;
+    min-height: 150px;
+    border: 2px dashed #9B9B9B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    background: #222;
+    cursor: pointer;
+    transition: .3s;
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: dashed;
+    dashes: 4, 4;
+}
+
+.file_upload_area:hover {
+    border-color: var(--primary_color);
+}
+
+.file_upload_area.active {
+    border-color: var(--primary_color);
+    background: #2b2b2b;
+}
+
+.upload_icon i {
+    font-size: 45px;
+    color: #bdbdbd;
+}
+
+.upload_text {
+    display: flex;
+    flex-direction: column;
+}
+
+.upload_text span {
+    color: var(--white_color);
+    font-size: var(--font-size);
+    opacity: .5;
+}
+
+.upload_text strong {
+    color: var(--primary_color);
+}
+
+.upload_text small {
+    margin-top: 8px;
+    color: #777;
+}
+.application_submit_button button{
+    font-weight: 700;
+    font-style: Bold;
+    font-size: var(--h2_font_size);
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: var(--black_color);
+    padding: 15.5px 25px;
+    background-color: var(--white_color);
+    border: none;
+    transition: all .3s linear;
+}
+.application_submit_button button:hover{
+    color: var(--white_color);
+    background-color: var(--primary_color);
+}
+.application_submit_button{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* ========== Application Page  ==========  */

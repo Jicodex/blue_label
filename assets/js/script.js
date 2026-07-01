@@ -136,3 +136,44 @@ $('.spacial_kalo_slider_main').slick({
         }
     ]
 });
+
+
+// ========= File Uploaded Input JS 
+const dropArea = document.getElementById("dropArea");
+const fileInput = document.getElementById("fileInput");
+const fileText = document.getElementById("fileText");
+
+fileInput.addEventListener("change", function () {
+
+    if (this.files.length > 0) {
+        fileText.innerHTML = this.files[0].name;
+    }
+
+});
+
+dropArea.addEventListener("dragover", function (e) {
+
+    e.preventDefault();
+    dropArea.classList.add("active");
+
+});
+
+dropArea.addEventListener("dragleave", function () {
+
+    dropArea.classList.remove("active");
+
+});
+
+dropArea.addEventListener("drop", function (e) {
+
+    e.preventDefault();
+
+    dropArea.classList.remove("active");
+
+    fileInput.files = e.dataTransfer.files;
+
+    if (fileInput.files.length > 0) {
+        fileText.innerHTML = fileInput.files[0].name;
+    }
+
+});
