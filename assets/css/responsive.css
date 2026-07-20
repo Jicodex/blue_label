@@ -577,6 +577,61 @@
 	padding-bottom: 20px;
 }
 
+.spacial_two_over_banner_link {
+	position: unset;
+	transform: translateX(0%);
+}
+.spacial_two_over_banner_link ul {
+	display: grid;
+	justify-content: center;
+	list-style-type: none;
+	gap: 15px;
+}
+.spacial_two_over_text .container {
+	background-color: var(--white_color);
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.spacial_two_over_hero .container{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.spacial_two_over_hero img {
+	height: 676px;
+}
+.spacial_two_over_card_slider .slick-slide {
+	margin: 0px 50px;
+}
+
+.spacial_2_portfolio_card_row {
+	padding: 0px;
+	background-color: var(--white_color);
+	border-bottom: 0px solid var(--black_color);
+}
+.spacial_portfolio_section{
+	background-color: var(--white_color);
+}
+.spacial_2_portfolio_card_items {
+	width: 100%;
+	height: 198px;
+	position: relative;
+	margin-bottom: 30px;
+}
+.spacial_2_portfolio_bottom_last .spacial_two_bottom_last {
+	border-top: 0px solid #000000;
+	padding: 0 0;
+}
+.spacial_portfolio_main_faq_section .container{
+	background-color: var(--white_color);
+}
+.spacial_portfolio_main_faq_section .spacial_faq_container .container{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.spacial_2_portfolio_bottom_last{
+	background-color: var(--white_color);
+	padding-top: 40px;
+}
 }
 
 /* Small devices (576px – 767.98px) */
@@ -824,6 +879,22 @@
 	padding: 20px 40px;
 	background-color: var(--white_color);
 	border-bottom: 1px solid var(--black_color);
+}
+
+.spacial_two_over_banner_link {
+	position: unset;
+	transform: translateX(0%);
+}
+.spacial_two_over_banner_link ul {
+	display: grid;
+	justify-content: center;
+	list-style-type: none;
+	gap: 15px;
+}
+.spacial_two_over_text .container {
+	background-color: var(--white_color);
+	padding-left: 35px;
+	padding-right: 35px;
 }
 
 }
