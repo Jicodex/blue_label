@@ -1,0 +1,82 @@
+
+
+
+.application_banner_section .container {
+    background-color: var(--white_color);
+}
+
+.application_banner_image img {
+    width: 100%;
+    height: 627px;
+    object-fit: cover;
+}
+
+.application_banner_content {
+    padding: 30px 20px;
+}
+
+.application_banner_content h2 {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: var(--h2_font_size);
+    line-height: 29px;
+    letter-spacing: 0%;
+    color: var(--primary_color);
+}
+
+.application_banner_content p {
+    font-weight: 400;
+    font-size: var(--font-size);
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: justify;
+    color: var(--background_color);
+}
+
+.application_container_two p {
+    font-weight: 700;
+    font-size: var(--font-size);
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: justify;
+    color: var(--white_color);
+    margin-top: 25px;
+}
+
+.application_container_two {
+    background-color: var(--background_color) !important;
+}
+
+.application_container_two ul {
+    padding-left: 13px;
+}
+
+.application_container_two ul li {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: var(--font-size);
+    line-height: 30px;
+    letter-spacing: 0%;
+    color: var(--white_color);
+    padding-right: 45px;
+}
+
+.application_container_two ul li p {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.application_form_title h2 {
+    font-weight: 700;
+    font-size: var(--h2_font_size);
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: var(--white_color);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/* ========== Application Page  ==========  */
+
+/* ========== Portfolio Items Section Css End ==========  */

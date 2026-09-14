@@ -1,0 +1,268 @@
+.spacial_2_portfolio_card_items{
+    width: 100%;
+    height: 307px;
+    position: relative;
+    margin-bottom: 30px;
+}
+.spacial_2_portfolio_card_items img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.over_text_for_card{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #02020266;
+}
+.over_text_for_card h3{
+    text-align: center;
+    font-weight: 700;
+    font-size: var(--h3_font_size);
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: var(--white_color);
+    margin-bottom: 0px;
+}
+.spacial_2_portfolio_card_row h4{
+font-weight: 700;
+font-size: var(--h3_font_size);
+line-height: 20px;
+letter-spacing: 0%;
+text-align: center;
+color: var(--background_color);
+margin-bottom: 20px;
+}
+.spacial_2_portfolio_bottom_last .spacial_two_bottom_last{
+    border-top: 2px solid #000000
+}
+.spacial_2_portfolio_bottom_last p{
+    margin-top: 70px;
+font-weight: 400;
+font-size: var(--font-size);
+line-height: 28px;
+letter-spacing: 0%;
+color: var(--background_color);
+}
+.spacial_2_portfolio_bottom_last{
+    margin-bottom: 0px;
+}
+.spacial_portfolio_main_faq_section .container {
+	background-color: transparent;
+	padding-right: var(--bs-gutter-x,.75rem);
+  padding-left: var(--bs-gutter-x,.75rem);
+  padding-bottom: 0px;
+}
+.spacial_faq_container{
+	background-color: var(--white_color);
+}
+.spacial_portfolio_main_faq_section .main_faq_title h2 {
+	font-size: var(--h2_font_size);
+	color: var(--background_color);
+	padding:0 0 20px 0;
+}
+.spacial_portfolio_main_faq_section .main_faq_list_area .accordion-item .accordion-button.collapsed {
+	font-size: var(--font-size);
+	color: var(--background_color);
+	font-weight: 400;
+	line-height: 24px;
+	background-color: transparent !important;
+	border: none;
+	height: auto;
+	padding: 17px 10px;
+	letter-spacing: 0px;
+}
+.spacial_portfolio_main_faq_section .main_faq_list_area .accordion-item {
+	background-color: transparent !important;
+	border: 1px solid #634A22;
+	border-radius: 0px !important;
+	margin-bottom: 25px;
+}
+.spacial_portfolio_main_faq_section .main_faq_list_area .accordion-item .accordion-button {
+	font-size: var(--font-size);
+	color: var(--background_color);
+	font-weight: 400;
+	line-height: 36px;
+	background-color: transparent;
+	border: none;
+	height: auto;
+	padding: 17px 10px;
+	letter-spacing: 0px;
+}
+.spacial_portfolio_main_faq_section .accordion-collapse.collapse.show .accordion-body {
+	color: var(--background_color);
+}
+.spacial_portfolio_main_faq_section .main_faq_list_area .accordion-body {
+	color: var(--primary_color);
+	font-size: var(--font-size);
+}
+.spacial_portfolio_main_faq_section .accordion-button::before {
+	flex-shrink: 0;
+	width: 1.25rem;
+	height: 1.25rem;
+	margin-right: 16px;
+	content: "";
+	background-image: url("../../images/icons/left_down.svg");
+	background-repeat: no-repeat;
+	background-size: 1.25rem;
+	transition: transform 0.2s ease-in-out;
+	justify-self: center;
+	margin-top: 13px;
+}
+.spacial_portfolio_main_faq_section .accordion-button:not(.collapsed)::before {
+	background-image: url("../../images/icons/left_down.svg");
+	transform: rotate(-180deg);
+	margin-top: 5px;
+}
+.spacial_portfolio_main_faq_section .accordion-button::after {
+	flex-shrink: 0;
+	width: 1.25rem;
+	height: 1.25rem;
+	margin-left: auto;
+	content: "";
+	background-image: url("../../images/icons/icon-park-solid_down-one.svg");
+	background-repeat: no-repeat;
+	background-size: 1.25rem;
+	transition: transform 0.2s ease-in-out;
+	display: none;
+}
+.spacial_portfolio_main_faq_section .accordion-button {
+	position: relative;
+	display: flex;
+	align-items: start;
+	width: 100%;
+	padding: 1rem 1.25rem;
+	font-size: 1rem;
+	color: #212529;
+	text-align: left;
+	background-color: #fff;
+	border: 0;
+	border-radius: 0;
+	overflow-anchor: none;
+	transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,border-radius .15s ease;
+	text-align: start;
+	justify-content: start;
+}
+.spacial_portfolio_main_faq_section .main_faq_left img {
+	height: 455px;
+	width: 100%;
+	border-radius: 5px;
+	object-fit: cover;
+}
+.spacial_portfolio_main_faq_section .white_button {
+	padding: 10px 10.5px;
+	background-color: transparent;
+	max-width: 357px;
+	width: 357px;
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+	border: 1px solid #020202;
+	transition: all 0.3s linear;
+}
+.spacial_portfolio_main_faq_section .white_button h2 {
+	color: var(--black_color);
+font-weight: 700;
+font-size: var(--font-size);
+line-height: 29px;
+letter-spacing: 0%;
+text-align: center;
+}
+.spacial_two_bottom_last_two{
+    border-top: none !important;
+}
+.spacial_two_bottom_last_two h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.spacial_two_bottom_last_two p{
+    margin-top: 0px;
+}
+.spacial_portfoli_last_image img{
+    width: 100%;
+}
+/* ========== Spacial Two Portfolio CSS End  ==========  */
+/* ========== Spacial Two Banner Image Css Start  ==========  */
+.spacial_two_banner_image{
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.spacial_two_banner_image img{
+    height: 314px;
+    width: 100%;
+    object-fit: cover;
+}
+.spacial_two_header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 43px;
+}
+.spacial_two_header h3{
+font-weight: 700;
+font-size: var(--h3_font_size);
+line-height: 100%;
+letter-spacing: 0%;
+color: var(--white_color);
+}
+.spacial_two_card_image img{
+    height: 275px;
+    width: 100%;
+    object-fit: cover;
+}
+.spacial_two_card_items{
+    padding: 20px 40px;
+    background-color: var(--white_color);
+}
+.spacial_two_card_content h3{
+    font-weight: 700;
+    font-size: var(--h3_font_size);
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: var(--background_color);
+    margin-bottom: 20px;
+}
+.spacial_two_card_content p{
+    font-weight: 400;
+    font-size: var(--social_button_size);
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: justify;
+    margin-bottom: 20px;
+    color: var(--background_color);
+}
+.spacial_two_card_content a{
+    font-weight: 400;
+    font-size: var(--social_button_size);
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: var(--background_color);
+}
+.spacial_two_card_content a:hover{
+    color: var(--primary_color);
+}
+.spacial_two_bottom_last{
+    background-color: var(--white_color);
+    padding: 30px 40px;
+}
+.spacial_two_bottom_last h2{
+    font-weight: 700;
+    font-size: var(--h2_font_size);
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: justify;
+    color: var(--background_color);
+    margin-bottom: 30px;
+}
+.spacial_two_bottom_last img{
+    height: 108px;
+    width: 200px;
+    object-fit: cover;
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+/* ========== Spacial Two Banner Image Css End  ==========  */

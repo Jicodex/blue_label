@@ -1,0 +1,158 @@
+/* ========== Spacial Two Overview CSS Start  ==========  */
+.spacial_two_over_banner_link {
+    position: absolute;
+    top: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    z-index: 999;
+}
+
+.spacial_two_over_banner_link ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 40px;
+    padding-left: 0px;
+}
+
+.spacial_two_over_banner_link ul li a {
+    font-weight: 700;
+    font-size: var(--font-size);
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: var(--background_color);
+}
+
+.spacial_two_over_banner_link ul li a:hover {
+    color: var(--primary_color);
+}
+
+.spacial_two_over_banner_link ul li a.active {
+    color: var(--primary_color);
+}
+
+.spacial_two_over_card .container {
+    background-color: var(--white_color);
+}
+
+.spacial_two_over_card_item {
+    background-color: #212934;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    width: 252px;
+}
+
+.spacial_two_over_card_item img.banner_view {
+    height: 243px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+
+}
+
+.spacial_two_over_card_item h2 {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: var(--h2_font_size);
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: var(--white_color);
+    margin: 10px 0 20px 20px;
+}
+
+.spacial_two_over_card_item a {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: var(--accordion_heading_size);
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: var(--primary_color);
+    margin: 0px 0px 0px 20px;
+    display: flex;
+    gap: 5px;
+}
+
+.spacial_two_over_card_item a img {
+    height: 13.35px;
+    margin-top: 3px;
+}
+
+.spacial_two_over_card_slider .slick-slide {
+    margin: 0 20px;
+}
+
+.spacial_two_over_card_slider .slick-list {
+    margin: 0 -20px;
+}
+
+.spacial_two_over_text .container {
+    background-color: var(--white_color);
+    padding-left: 65px;
+    padding-right: 65px;
+}
+
+.spacial_two_over_text_content {
+    margin-top: 10px;
+}
+
+.spacial_two_over_text_content h2 {
+    font-weight: 700;
+    font-size: var(--h2_font_size);
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: var(--background_color);
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.spacial_two_over_text_content p {
+    font-weight: 400;
+    font-size: var(--font-size);
+    line-height: 28px;
+    letter-spacing: 0%;
+    color: var(--background_color);
+}
+
+.spacial_two_over_text_content .primary_color {
+    color: var(--primary_color);
+}
+
+/* ========== Spacial Two Overview CSS End  ==========  */
+.service_signle_img_and_content img {
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+    margin-bottom: 30px;
+}
+
+.service_signle_img_and_content h2 {
+    font-weight: 700;
+    font-size: var(--h2_font_size);
+    line-height: 29px;
+    letter-spacing: 0%;
+    color: var(--body_paragraph_color);
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.service_signle_img_and_content p {
+    font-weight: 400;
+    font-size: var(--font-size);
+    line-height: 30px;
+    letter-spacing: 0%;
+    color: var(--body_paragraph_color);
+    text-align: justify;
+}
+
+.spacial_two_bottom_last img {
+    height: 108px;
+    width: 200px;
+    object-fit: cover;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 81px;
+}

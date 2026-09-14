@@ -1,0 +1,176 @@
+/* ========== Portfolio About Section Css Start ==========  */
+
+.portfolio_about_section {
+    margin-top: 10px;
+}
+
+.portfolio_about_section .container {
+    background-color: var(--about_card_background);
+}
+
+.portfolio_about_content {
+    padding: 20px 10px 40px 10px;
+}
+
+.portfolio_about_content h2 {
+    color: var(--white_color);
+}
+
+.portfolio_about_content p {
+    color: var(--white_color);
+}
+
+.portfolio_about_content .portfoli_about_text_center {
+    text-align: center;
+}
+
+.portfolio_about_content .portfoli_about_text_center p {
+    color: var(--white_color);
+    font-weight: 700;
+}
+
+.portfolio_about_content .portfoli_about_text_center a {
+    color: var(--white_color);
+    font-weight: 700;
+}
+
+.portfolio_about_content .portfoli_about_text_center a:hover {
+    color: var(--primary_color);
+}
+
+
+/* ========== Portfolio About Section Css End ==========  */
+
+
+/* ========== Portfolio Items Section Css Start ==========  */
+
+.portfolio_items_section {
+    margin-top: 20px;
+    padding-bottom: 50px;
+}
+
+.portfolio_items_section .container {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.portfolio_items_section .quick-filter-title {
+    font-weight: 700;
+    font-size: var(--font-size);
+    line-height: 20px;
+    letter-spacing: 0%;
+    color: var(--white_color);
+}
+
+.portfolio_items_section .filter-bar ul li .nav-link {
+    font-weight: 700;
+    font-size: var(--font-size);
+    line-height: 20px;
+    letter-spacing: 0%;
+    color: var(--white_color);
+    background-color: transparent;
+    border: none;
+}
+
+.portfolio_items_section .filter-bar ul li .nav-link.active {
+    font-weight: 700;
+    font-size: var(--font-size);
+    line-height: 20px;
+    letter-spacing: 0%;
+    color: var(--primary_color);
+    background-color: transparent;
+    border: none;
+}
+
+.portfolio_items_section .filter-bar {
+    margin-bottom: 20px;
+}
+
+.portfolio_items_section .filter-bar ul {
+    gap: 26px;
+}
+
+.city-select-wrapper .city-select {
+    background-color: transparent;
+    padding: 7px 40px 7px 10px;
+    border: 1px solid #EFECE0;
+    font-weight: 700;
+    font-size: var(--font-size);
+    line-height: 20px;
+    letter-spacing: 0%;
+    color: var(--white_color);
+}
+
+.form-select:focus {
+    border-color: #EFECE0;
+    outline: 0;
+    box-shadow: 0 0 0 0 rgba(13, 110, 253, .25);
+}
+
+.form-select {
+    background-image: url("../../images/icons/icon-park-solid_down-one.svg");
+}
+
+
+/* কার্ডের মেইন কন্টেইনার */
+
+.portfolio_card_item {
+    background-color: var(--black_color, #000000);
+    overflow: hidden;
+}
+
+.portfolio_card_img img {
+    width: 100%;
+    display: block;
+    height: 233px;
+    object-fit: cover;
+    border-radius: 0px;
+}
+
+.portfolio_card_btn {
+    width: 100%;
+    background-color: var(--about_card_background);
+    border: none;
+    color: var(--body_paragraph_color, #efece0);
+    font-size: var(--accordion_heading_size);
+    line-height: 1.4;
+    padding: 5px 20px;
+    gap: 15px;
+    outline: none;
+    transition: background-color 0.3s ease;
+}
+
+.portfolio_card_btn:hover,
+.portfolio_card_btn:focus {
+    background-color: var(--about_card_background);
+    color: var(--white_color, #ffffff);
+}
+
+.arrow-icon {
+    font-size: 12px;
+    color: var(--white_color, #ffffff);
+    transition: transform 0.3s ease;
+}
+
+.portfolio_card_btn[aria-expanded="true"] .arrow-icon {
+    transform: rotate(180deg);
+}
+
+.portfolio_card_dropdown_content {
+    background-color: var(--about_card_background);
+    color: var(--accent_color, #e2e2e2);
+    padding: 15px 20px;
+    font-size: var(--font-size);
+    line-height: 1.6;
+}
+
+.text-truncate-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.card_content{
+    text-align: center;
+    margin-top: 15px;
+}

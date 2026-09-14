@@ -1,0 +1,104 @@
+/* ========== Services Text Section Css Start ==========  */
+.services_banner_text {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.services_banner_text_content p {
+    font-weight: 400;
+    font-size: var(--font-size);
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: var(--white_color);
+}
+
+.services_card_image img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.servce_card_content h2 {
+    font-weight: 700;
+    font-size: var(--h2_font_size);
+    line-height: 29px;
+    letter-spacing: 0%;
+    color: var(--white_color);
+    margin-bottom: 15px;
+}
+
+.servce_card_content p {
+    font-weight: 400;
+    font-size: var(--font-size);
+    line-height: 30px;
+    letter-spacing: 0%;
+    color: var(--white_color);
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+.servce_card_content a {
+    font-weight: 400;
+    font-size: var(--font-size);
+    line-height: 30px;
+    letter-spacing: 0%;
+    color: var(--primary_color);
+}
+
+.servce_card_content a:hover {
+    color: var(--white_color);
+}
+
+.services_bottom_content {
+    margin-top: 30px;
+}
+
+.services_bottom_content h2 {
+    font-weight: 700;
+    font-size: var(--h2_font_size);
+    line-height: 29px;
+    letter-spacing: 0%;
+    color: var(--white_color);
+    margin-bottom: 15px;
+}
+
+.services_bottom_content p {
+    font-weight: 400;
+    font-size: var(--font-size);
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: justify;
+    color: var(--white_color);
+    text-align: justify;
+}
+.services_single_content{
+    margin-top: 10px;
+}
+
+.service_signle_img_and_content img {
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+    margin-bottom: 30px;
+}
+
+.service_signle_img_and_content h2 {
+    font-weight: 700;
+    font-size: var(--h2_font_size);
+    line-height: 29px;
+    letter-spacing: 0%;
+    color: var(--body_paragraph_color);
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.service_signle_img_and_content p {
+    font-weight: 400;
+    font-size: var(--font-size);
+    line-height: 30px;
+    letter-spacing: 0%;
+    color: var(--body_paragraph_color);
+    text-align: justify;
+}
+
+/* ========== Services Text Section Css End ==========  */
