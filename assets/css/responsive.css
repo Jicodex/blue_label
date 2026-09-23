@@ -49,6 +49,7 @@
 		--social_button_size: 12px;
 		--font_size_54 : 36px;
     --font_size_60 : 60px;
+	--font_size_45 : 34px;
 	}
 
 	/* ========== Home Page Responsive Css Start ==========  */
@@ -646,6 +647,10 @@
 .super_vip_banner_bottom .container {
 	background-color: var(--body_paragraph_color);
 	padding: 0px;
+}
+.references_review_text_section .container {
+	background-color: var(--body_paragraph_color);
+	padding: 45px 10px;
 }
 
 

@@ -84,6 +84,7 @@
     --white_color_70: #FFFFFFB2;
     --about_card_background: #212121;
     --button_background_color: #f9f9f9;
+    --green_bg_color: #153828;
     --letter_spacing: -0.015em;
     --letter_spacing_paragraph: 0.015em;
     --font-size: 16px;
@@ -98,6 +99,7 @@
     --h4_font_size: 16px;
     --social_button_size: 14px;
     --heading_line_height: 1.2;
+    --font_size_45 : 45px;
     --font_size_54 : 54px;
     --font_size_60 : 60px;
 }

@@ -1,0 +1,138 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+.references_review_section .container{
+    background-color: var(--green_bg_color);
+}
+.references_title h1{
+    font-weight: 700;
+    font-size: var(--font_size_45);
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: var(--white_color);
+    padding: 40px 0;
+}
+.references_review_card{
+    text-align: center;
+    padding-bottom: 60px;
+}
+.references_star{
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+.v img{
+    width: 23px;
+    height: 23px;
+}
+.references_review_card h3{
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-style: Italic;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: var(--white_color);
+    margin-bottom: 30px;
+}
+.review_divided{
+    width: 100%;
+    height: 2px;
+    background-color: #FFBB00;
+}
+.references_review_card p{
+    font-size: var(--social_button_size);
+    line-height: 24px;
+    margin-top: 10px;
+}
+.references_review_card a{
+    font-size: var(--social_button_size);
+    line-height: 24px;
+    color: #FFBB00;
+}
+.references_review_card a:hover{
+    color: var(--white_color);
+}
+.references_review_banner{
+    width: 100%;
+    height: 481px;
+}
+.references_review_banner .container{
+    background-image: url(../../images/review_banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.references_review_text_section .container{
+    background-color: var(--body_paragraph_color);
+    padding: 45px 30px;
+}
+.references_review_text_content h2{
+    color: var(--background_color);
+    font-weight: 700;
+}
+.references_review_text_content p{
+    color: var(--background_color);
+}
+.references_review_text_content p.strong_references_text{
+    color: var(--background_color);
+    font-weight: 700;
+}
+.references_review_text_content ul li p{
+    color: var(--background_color);
+   margin-bottom: 0px;
+}
+.spacial_2_faq_section .container{
+    background-color: var(--green_bg_color);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.accordion-button {
+    background-color: var(--heading_color);
+    color: var(--background_color);
+}
+.accordion-button:not(.collapsed) {
+	background-color: var(--heading_color);
+    color: var(--background_color);
+	box-shadow: inset 0 0px 0 rgba(0, 0, 0, 0);
+}
+.accordion-body {
+	color: var(--background_color) !important;
+    background-color: var(--heading_color) !important;
+}
+.accordion-collapse.collapse.show .accordion-body {
+	color: var(--background_color) !important;
+    background-color: var(--heading_color) !important;
+}
+.accordion-body p{
+	color: var(--background_color);
+}
+.accordion-body h2{
+	color: var(--background_color);
+    font-weight: 700;
+    font-size: var(--accordion_heading_size);
+}
+.accordion-body p.strong_references_text{
+    color: var(--background_color);
+    font-weight: 700;
+}
+.accordion-body ul li p{
+    color: var(--background_color);
+   margin-bottom: 0px;
+}
+.spacial_2_faq_section{
+    margin-bottom: 30px;
+}
+.accordion-button::after {
+	flex-shrink: 0;
+	width: 1.25rem;
+	height: 1.25rem;
+	margin-left: auto;
+	content: "";
+	background-image: url("../../images/icons/icon-park-solid_down-one.svg");
+	background-repeat: no-repeat;
+	background-size: 1.25rem;
+	filter: brightness(0) saturate(100%) invert(3%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(95%) contrast(100%);
+	transition: transform 0.2s ease-in-out;
+}
