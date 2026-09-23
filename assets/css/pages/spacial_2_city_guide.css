@@ -1,0 +1,608 @@
+.spacial_2_city_banner_bg {
+    background-image: url(../../images/header_image.webp);
+    height: 645px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.spaqcial_2_city_banner_content {
+    background-color: #02020273;
+    width: 50%;
+    height: 645px;
+    left: 0;
+    top: 0;
+    padding-left: 90px;
+    padding-right: 50px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.spaqcial_2_city_banner_content p {
+    font-weight: 400;
+    font-style: Regular;
+    font-size: var(--font-size);
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: justify;
+
+}
+
+.spacial_2_city_banner_section {
+    margin-bottom: 30px;
+}
+
+.card_section {
+    margin-top: 0px;
+
+}
+
+.card_item {
+    padding: 0px 30px;
+    margin-bottom: 30px;
+}
+
+.card_section .row {
+    background-color: var(--about_card_background);
+    padding-top: 50px;
+}
+
+.white_button h2 {
+    color: var(--black_color);
+    margin-bottom: 0px;
+    font-size: var(--font-size);
+}
+
+.defult_button_area {
+    margin: 50px 0;
+}
+
+.just_banner_image img {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 30px;
+}
+
+/* ========== Spacial Two Overview CSS Start  ==========  */
+.spacial_two_over_banner_link {
+    position: absolute;
+    top: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    z-index: 999;
+}
+
+.spacial_two_over_banner_link ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 40px;
+    padding-left: 0px;
+}
+
+.spacial_two_over_banner_link ul li a {
+    font-weight: 700;
+    font-size: var(--font-size);
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: var(--background_color);
+}
+
+.spacial_two_over_banner_link ul li a:hover {
+    color: var(--primary_color);
+}
+
+.spacial_two_over_banner_link ul li a.active {
+    color: var(--primary_color);
+}
+
+.spacial_two_over_card .container {
+    background: linear-gradient(90deg, #5D4B2B 0%, #E2E2E2 100%) !important;
+}
+
+.spacial_two_over_card_item {
+    background-color: #212934;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+.spacial_two_over_card_item img.banner_view {
+    height: 243px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+
+}
+
+.spacial_two_over_card_item h2 {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: var(--h2_font_size);
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: var(--white_color);
+    margin: 10px 0 20px 20px;
+}
+
+.spacial_two_over_card_item a {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: var(--accordion_heading_size);
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: var(--primary_color);
+    margin: 0px 0px 0px 20px;
+    display: flex;
+    gap: 5px;
+}
+
+.spacial_two_over_card_item a img {
+    height: 13.35px;
+    margin-top: 3px;
+}
+
+.spacial_two_over_card_slider .slick-slide {
+    margin: 0 20px;
+}
+
+.spacial_two_over_card_slider .slick-list {
+    margin: 0 -20px;
+}
+
+.spacial_two_over_text .container {
+
+    padding-left: 65px;
+    padding-right: 65px;
+}
+
+.spacial_two_over_text_content {
+    margin-top: 10px;
+}
+
+.spacial_two_over_text_content h2 {
+    font-weight: 700;
+    font-size: var(--h2_font_size);
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: var(--background_color);
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.spacial_two_over_text_content p {
+    font-weight: 400;
+    font-size: var(--font-size);
+    line-height: 28px;
+    letter-spacing: 0%;
+    color: var(--background_color);
+}
+
+.spacial_two_over_text_content .primary_color {
+    color: var(--primary_color);
+}
+
+.card_section_title h2 {
+    color: var(--black_color);
+}
+
+/* ========== Spacial Two Overview CSS End  ==========  */
+
+/* ========== Special Page Banner Section Css Start ==========  */
+.special_banner_image img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+.spacial_page_button {
+    padding: 9.5px 0;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 100%;
+}
+
+.spacial_page_button h2 {
+    font-size: var(--h2_font_size) !important;
+    color: var(--primary_color);
+}
+
+.spacial_page_button:hover h2 {
+    color: var(--white_color);
+}
+
+.spacial_card_title h1 {
+    font-weight: 700;
+    font-size: var(--h1_font_size);
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: var(--primary_color);
+    margin-bottom: 50px;
+}
+
+.special_text_and_button .container {
+    background-color: var(--primary_color);
+    padding: 45px 40px 10px 40px;
+}
+
+.special_text_area p {
+    font-weight: 700;
+    font-size: var(--font-size);
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: justify;
+    color: var(--body_paragraph_color);
+    padding-right: 60px;
+}
+
+.spacial_overview_card_items {
+    position: relative;
+    margin: 10px 10px 35px 10px;
+    cursor: pointer;
+}
+
+.spacial_overview_card_items img {
+    height: 632px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.spacial_overview_card_over_content {
+    height: 76px;
+    background-color: var(--white_color_70);
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+}
+
+.spacial_overview_card_over_content h3 {
+    font-weight: 700;
+    font-size: var(--h3_font_size);
+    line-height: 29px;
+    letter-spacing: 30%;
+    text-align: center;
+    color: var(--primary_color);
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.spacial_overview_card_over_content p {
+    font-weight: 400;
+    font-size: var(--font-size);
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: var(--primary_color);
+    margin-top: 0px;
+    margin-bottom: 11px;
+}
+
+.spacial_overview_card_section .container {
+    background: linear-gradient(180deg, #9A8462 49.04%, #FFFFFF 100%);
+}
+
+.spacial_overview_button .container {
+    background-color: var(--white_color);
+    padding: 42px 0;
+}
+
+.spacial_botton {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.spacial_botton a {
+    font-weight: 700;
+    font-size: var(--h2_font_size);
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: var(--primary_color);
+    background-color: var(--accent_color);
+    padding: 20px 81px;
+}
+
+.spacial_botton a:hover {
+    color: var(--white_color);
+    background-color: var(--primary_color);
+}
+
+.spacial_botton button {
+    font-weight: 700;
+    font-size: var(--h2_font_size);
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: var(--primary_color);
+    background-color: var(--accent_color);
+    padding: 20px 81px;
+    border: none;
+    transition: all .3s linear;
+}
+
+.spacial_botton button:hover {
+    color: var(--white_color);
+    background-color: var(--primary_color);
+}
+
+.spacial_page_card_with_more .container {
+    background: var(--about_card_background);
+    margin-top: 20px;
+    padding-top: 30px;
+}
+
+.spacial_page_card_with_more .portfolio_card_item {
+    background-color: var(--about_card_background) !important;
+    overflow: hidden;
+    padding: 0px 20px !important;
+    margin-bottom: 20px;
+}
+
+.spacial_page_card_with_more .portfolio_card_btn {
+    width: 100%;
+    background-color: var(--background_color);
+    border: none;
+    color: var(--white_color);
+    font-size: var(--font-size);
+    line-height: 1.4;
+    padding: 14px 20px;
+    gap: 15px;
+    outline: none;
+    transition: background-color 0.3s ease;
+}
+
+
+
+.spacial_page_card_with_more .portfolio_card_dropdown_content {
+    background-color: var(--white_color);
+    color: var(--heading_color);
+    padding: 15px 20px;
+    font-size: var(--font-size);
+    line-height: 1.6;
+}
+
+.spacial_page_last_section .container {
+    background-color: var(--white_color);
+}
+
+.spacial_page_last_content {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.spacial_page_last_content img {
+    height: 200px;
+    width: 400px;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+.portfolio_card_btn {
+    color: var(--white_color);
+    background-color: var(--background_color);
+}
+
+/* শুধু open অবস্থায় */
+.portfolio_card_btn[aria-expanded="true"] {
+    color: var(--heading_color);
+    background-color: var(--white_color);
+}
+
+/* ========== Main FAQ Section Css Start ==========  */
+
+.main_faq_section .container {
+    background-color: var(--about_card_background);
+    padding: 0 40px 50px 40px;
+}
+
+.main_faq_left img {
+    height: 339px;
+    width: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.main_faq_title {
+    text-align: end;
+}
+
+.main_faq_title h2 {
+    font-size: var(--small_card_title);
+    color: var(--white_color);
+    padding: 20px 0;
+}
+
+.main_faq_list_area .accordion-item .accordion-button {
+    font-size: var(--accordion_heading_size);
+    color: var(--primary_color);
+    font-weight: 700;
+    line-height: 36px;
+    background-color: var(--background_color);
+    border: none;
+    height: auto;
+    padding: 17px 10px;
+    letter-spacing: 0px;
+}
+
+.main_faq_list_area .accordion-item .accordion-button.collapsed {
+    font-size: var(--accordion_heading_size);
+    color: var(--body_paragraph_color);
+    font-weight: 700;
+    line-height: 36px;
+    background-color: var(--background_color);
+    border: none;
+    height: auto;
+    padding: 17px 10px;
+    letter-spacing: 0px;
+}
+
+.main_faq_list_area .accordion-body {
+    color: var(--primary_color);
+    font-size: var(--accordion_heading_size);
+}
+
+.main_faq_list_area .accordion-item {
+    background-color: var(--background_color);
+    border: none;
+    border-radius: 0px !important;
+    margin-bottom: 25px;
+}
+
+.spacial_2_faq_section {
+    margin-bottom: 30px;
+}
+
+.spacial_2_faq_section .container {
+    background-color: var(--about_card_background);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/* ========== Main FAQ Section Css End ==========  */
+.spacial_small_card_section .container {
+    background-color: transparent !important;
+}
+
+.spacial_small_card_section .small_card_with_text {
+    background-color: var(--primary_color);
+    padding: 20px 14.5px;
+    height: auto !important;
+    border-radius: 0px;
+}
+
+.spacial_small_card_section .small_card_with_text p {
+    line-height: 20px;
+    color: var(--background_color);
+    text-align: center;
+    margin-top: 15px;
+    font-size: var(--font-size);
+    margin-bottom: 0px;
+}
+
+.spacial_small_card_section .container {
+    background-color: transparent !important;
+}
+
+.just_for_mobile_banner_image {
+    display: none;
+}
+
+
+
+
+@media (min-width: 300px) and (max-width: 575.98px) {
+
+    .spacial_two_over_card_item {
+        margin-bottom: 20px;
+    }
+
+    .spaqcial_2_city_banner_content {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        background-color: var(--about_card_background);
+        display: block;
+    }
+
+    .spacial_2_city_banner_bg {
+        background-image: none;
+        height: auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+
+    .spacial_2_city_banner_section {
+        margin-bottom: 0px;
+    }
+
+    .just_for_mobile_banner_image {
+        display: block;
+    }
+
+    .just_for_mobile_banner_image img {
+        width: 100%;
+        height: 216px;
+    }
+
+    .card_cover_img .img-fluid {
+        max-width: 100%;
+        height: 430px;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+
+    .just_banner_image img {
+        width: 100%;
+        height: 153px !important;
+        margin-bottom: 30px;
+    }
+
+    .spacial_page_card_with_more .portfolio_card_item {
+        padding: 20px;
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+
+    .portfolio_card_img .img-fluid {
+        max-width: 100%;
+        height: 226px !important;
+        object-fit: cover;
+        border-radius: 0px;
+    }
+
+    .spacial_small_card_section .small_card_with_text {
+        background-color: var(--primary_color);
+        padding: 0px 0px 5px 0px;
+        height: auto !important;
+        margin: 0px 0px 20px 0px !important;
+    }
+
+    .small_card_item img {
+        width: 100%;
+        height: 138px !important;
+        margin: 0 auto;
+    }
+
+    .small_card_item img {
+        width: 100%;
+        height: 138px;
+        margin: 0 auto;
+        padding: 15px 13px 0px 13px;
+    }
+
+    .spacial_small_card_section .small_card_item {
+        margin-bottom: 20px;
+        text-align: center;
+        margin: 0px 0px 20px 0px;
+        padding: 0px;
+    }
+    .spaqcial_2_city_banner_content p {
+	font-weight: 400;
+	font-size: var(--font-size);
+	line-height: 22px;
+}
+.spacial_page_card_with_more .container {
+	background: var(--about_card_background) !important;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.spacial_card_title {
+    margin-bottom: 20px;
+}
+.spacial_card_title  h2 {
+	padding: 0px 20px;
+}
+}

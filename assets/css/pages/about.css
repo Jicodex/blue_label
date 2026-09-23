@@ -1,0 +1,62 @@
+.about_banner_content h2{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.about_banner_content p a{
+    color: var(--primary_color);
+}
+.about_banner_content p a:hover{
+    color: var(--white_color);
+}
+.about_banner_content p.sign_text{
+    color: var(--heading_color);
+    font-family: var(--font-family_allura);
+    font-size: var(--h2_font_size);
+    line-height: 30px;
+}
+.about_card_image img{
+    width: 100%;
+    height: 600px;
+}
+.about_card_contents{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 600px;
+}
+.about_card_contents p{
+    font-family: var(--font-family_allura);
+font-weight: 400;
+font-size: 60px;
+line-height: 75px;
+letter-spacing: 0%;
+text-align: center;
+color: var(--heading_color);
+}
+.about_card_contents small{
+    font-size: var(--font-size);
+    color: var(--white_color);
+}
+.about_card_bottom{
+    padding-left: 25px;
+    margin-top: 10px;
+}
+.about_card_bottom p.sign_text{
+    font-family: var(--font-family_allura);
+    font-size: var(--small_card_title);
+    color: var(--heading_color);
+}
+.about_card_bottom{
+    margin-bottom: 80px;
+}
+.about_first_card_content h2{
+    margin-bottom: 20px;
+}
+.about_first_card_content p{
+    text-align: justify;
+}
+.about_first_card_section .container{
+    background-color: var(--about_card_background);
+}

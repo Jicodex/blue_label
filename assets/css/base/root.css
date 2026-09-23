@@ -71,6 +71,7 @@
     --background_color: #020202;
     --background_color_6: #0202020F;
     --primary_color: #9a8462;
+    --primary_color_for_button: #C4B99D;
     --heading_color: #9a8462;
     --body_paragraph_color: #EFECE0;
     --link_color: #9a8462;
@@ -90,12 +91,15 @@
     --h1_font_size: 32px;
     --small_card_title: 30px;
     --h2_font_size: 24px;
+    --font_size_22: 22px;
     --main_manu_size: 24px;
     --accordion_heading_size: 18px;
     --h3_font_size: 20px;
     --h4_font_size: 16px;
     --social_button_size: 14px;
     --heading_line_height: 1.2;
+    --font_size_54 : 54px;
+    --font_size_60 : 60px;
 }
 
 h1 {
